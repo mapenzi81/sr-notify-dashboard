@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SR-Notify — Diagnostica KPI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B0F14;
+    --surface: #121821;
+    --surface-2: #1A2230;
+    --border: #232C3A;
+    --text: #E9EEF4;
+    --muted: #7C8798;
+    --label: #A78BFA;
+    --long: #34D399;
+    --long-dim: rgba(52,211,153,0.12);
+    --stop: #F87171;
+    --stop-dim: rgba(248,113,113,0.12);
+    --tp: #FBBF24;
+    --tp-dim: rgba(251,191,36,0.12);
+    --neutral: #58A6FF;
+    --short-color: #FB923C;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: 'Space Grotesk', sans-serif; -webkit-font-smoothing: antialiased;
+    padding: 24px 16px 64px;
+  }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+
+  header {
+    max-width: 1200px; margin: 0 auto 20px;
+    display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 12px;
+    border-bottom: 1px solid var(--border); padding-bottom: 20px;
+  }
+  header h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; letter-spacing: -0.01em; }
+  header .eyebrow {
+    font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--label); margin-bottom: 6px;
+  }
+  header .status { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--muted); }
+  .status .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--long); margin-right: 6px; box-shadow: 0 0 6px var(--long); }
+  .back-link { font-size: 12px; color: var(--neutral); text-decoration: none; font-family: 'IBM Plex Mono', monospace; }
+  .back-link:hover { text-decoration: underline; }
+
+  main { max-width: 1200px; margin: 0 auto; }
+
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 24px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px;
+    font-size: 12px; color: var(--muted);
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+  .empty {
+    color: var(--muted); font-size: 14px; padding: 24px; text-align: center;
+    border: 1px dashed var(--border); border-radius: 10px;
+  }
+
+  table {
+    width: 100%; border-collapse: collapse; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 10px; overflow: hidden;
+  }
+  thead th {
+    text-align: center; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted);
+    padding: 10px 8px; border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  thead th:first-child { text-align: left; }
+  tbody td {
+    padding: 10px 8px; font-size: 12px; border-bottom: 1px solid var(--border);
+    font-family: 'IBM Plex Mono', monospace; text-align: center; white-space: nowrap;
+  }
+  tbody td:first-child { text-align: left; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--surface-2); }
+
+  .asset-name { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 13px; }
+  .asset-interval { color: var(--muted); font-size: 10px; margin-left: 4px; }
+
+  .kpi-dot {
+    width: 12px; height: 12px; border-radius: 50%; display: inline-block;
+    border: 1.5px solid transparent;
+  }
+  .kpi-dot.grey { background: var(--surface-2); border-color: var(--border); }
+  .kpi-dot.green { background: var(--long); box-shadow: 0 0 6px rgba(52,211,153,0.5); }
+  .kpi-dot.red { background: var(--stop); box-shadow: 0 0 6px rgba(248,113,113,0.5); }
+  .kpi-dot.amber { background: var(--tp); box-shadow: 0 0 6px rgba(251,191,36,0.5); }
+  .kpi-dot.orange { background: var(--short-color); box-shadow: 0 0 6px rgba(251,146,60,0.5); }
+  .kpi-dot.outline-green { background: transparent; border-color: var(--long); }
+  .kpi-dot.outline-orange { background: transparent; border-color: var(--short-color); }
+
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 100px; font-size: 10px;
+    font-family: 'IBM Plex Mono', monospace; font-weight: 600;
+  }
+  .badge.long-badge { background: var(--long-dim); color: var(--long); }
+  .badge.short-badge { background: rgba(251,146,60,0.14); color: var(--short-color); }
+  .badge.none-badge { background: var(--surface-2); color: var(--muted); }
+  .badge.error-badge { background: var(--stop-dim); color: var(--stop); }
+
+  footer {
+    max-width: 1200px; margin: 30px auto 0; font-size: 12px; color: var(--muted);
+    border-top: 1px solid var(--border); padding-top: 16px;
+  }
+
+  @media (max-width: 900px) {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead { display: none; }
+    tbody tr { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 10px; padding: 12px 14px; }
+    tbody td {
+      border-bottom: none; padding: 6px 0; text-align: left !important;
+      display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    }
+    tbody td::before {
+      content: attr(data-label); color: var(--muted); font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px; text-transform: uppercase;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="eyebrow">Terminale segnali · diagnostica</div>
+    <h1>Matrice KPI</h1>
+  </div>
+  <div>
+    <div class="status"><span class="dot"></span>ultimo aggiornamento: <span id="last-update" class="mono">—</span></div>
+    <a class="back-link" href="index.html">← torna alla dashboard</a>
+  </div>
+</header>
+
+<main>
+  <div class="legend">
+    <div class="legend-item"><span class="legend-dot" style="background:var(--long)"></span> Condizione favorevole</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--stop)"></span> Condizione sfavorevole / esaurita</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--tp)"></span> Estremo (ipercomprato/ipervenduto), non ancora in svolta</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--surface-2);border:1.5px solid var(--border)"></span> Neutro / nessuna condizione attiva</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--short-color)"></span> Pronto per SHORT</div>
+  </div>
+
+  <div id="matrix-container">
+    <div class="empty">Caricamento…</div>
+  </div>
+</main>
+
+<footer>
+  Snapshot dei KPI calcolati ad ogni esecuzione del bot. Non tutte le condizioni favorevoli implicano un'operazione:
+  l'apertura richiede l'allineamento simultaneo di trend, RSI, MACD e (se attivo) volume.
+</footer>
+
+<script>
+async function loadJSON(path) {
+  const res = await fetch(path + '?t=' + Date.now());
+  if (!res.ok) throw new Error('Impossibile caricare ' + path);
+  return res.json();
+}
+
+function fmtPrice(v) {
+  const n = parseFloat(v);
+  if (isNaN(n)) return '—';
+  return n < 10 ? n.toFixed(4) : n.toLocaleString('it-IT', {maximumFractionDigits: 2});
+}
+
+function rsiDot(a) {
+  if (a.rsi_recovering_from_oversold || a.rsi_recovering_from_overbought) return 'green';
+  if (a.rsi_overbought || a.rsi_oversold) return 'amber';
+  return 'grey';
+}
+function trendDot(a) {
+  if (a.trend_up) return 'green';
+  if (a.trend_down) return 'red';
+  return 'grey';
+}
+function macdDot(a) {
+  if (a.macd_bullish_cross) return 'green';
+  if (a.macd_bearish_cross) return 'red';
+  if (a.macd_bullish) return 'green';
+  if (a.macd_bearish) return 'red';
+  return 'grey';
+}
+function volumeDot(a) {
+  return a.volume_confirmed ? 'green' : 'grey';
+}
+
+function renderMatrix(data) {
+  const container = document.getElementById('matrix-container');
+  const assets = data.assets || [];
+
+  if (assets.length === 0) {
+    container.innerHTML = '<div class="empty">Nessun dato diagnostico disponibile ancora. Il bot deve eseguire almeno un run.</div>';
+    return;
+  }
+
+  const rows = assets.map(a => {
+    if (a.error) {
+      return `
+        <tr>
+          <td data-label="Asset"><span class="asset-name">${a.display}</span><span class="asset-interval">${a.interval}</span></td>
+          <td data-label="Stato" colspan="8"><span class="badge error-badge">ERRORE: ${a.error}</span></td>
+        </tr>
+      `;
+    }
+
+    const posBadge = a.position_open
+      ? `<span class="badge ${a.direction === 'short' ? 'short-badge' : 'long-badge'}">${a.direction === 'short' ? 'SHORT' : 'LONG'}</span>`
+      : `<span class="badge none-badge">—</span>`;
+
+    return `
+      <tr>
+        <td data-label="Asset"><span class="asset-name">${a.display}</span><span class="asset-interval">${a.interval}</span></td>
+        <td data-label="Prezzo">${fmtPrice(a.close)}</td>
+        <td data-label="RSI"><span class="kpi-dot ${rsiDot(a)}"></span> <span class="mono">${a.rsi ?? '—'}</span></td>
+        <td data-label="Trend"><span class="kpi-dot ${trendDot(a)}"></span></td>
+        <td data-label="MACD"><span class="kpi-dot ${macdDot(a)}"></span></td>
+        <td data-label="Volume"><span class="kpi-dot ${volumeDot(a)}"></span></td>
+        <td data-label="Long pronto"><span class="kpi-dot ${a.long_entry ? 'green' : 'outline-green'}"></span></td>
+        <td data-label="Short pronto"><span class="kpi-dot ${a.short_entry ? 'orange' : 'outline-orange'}"></span></td>
+        <td data-label="Posizione">${posBadge}</td>
+      </tr>
+    `;
+  }).join('');
+
+  container.innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>Asset</th><th>Prezzo</th><th>RSI</th><th>Trend</th><th>MACD</th>
+          <th>Volume</th><th>Long pronto</th><th>Short pronto</th><th>Posizione</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+async function init() {
+  try {
+    const data = await loadJSON('data/diagnostics.json');
+    document.getElementById('last-update').textContent = data.generated_at || '—';
+    renderMatrix(data);
+  } catch (e) {
+    document.getElementById('matrix-container').innerHTML = '<div class="empty">Dati diagnostici non ancora disponibili. Il bot deve eseguire almeno un run con la versione aggiornata.</div>';
+  }
+}
+
+init();
+</script>
+
+</body>
+</html>
