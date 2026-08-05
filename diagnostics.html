@@ -94,6 +94,8 @@
   .kpi-dot.orange { background: var(--short-color); box-shadow: 0 0 6px rgba(251,146,60,0.5); }
   .kpi-dot.outline-green { background: transparent; border-color: var(--long); }
   .kpi-dot.outline-orange { background: transparent; border-color: var(--short-color); }
+  .change-pos { color: var(--long); font-weight: 600; }
+  .change-neg { color: var(--stop); font-weight: 600; }
 
   .badge {
     display: inline-block; padding: 2px 8px; border-radius: 100px; font-size: 10px;
@@ -190,6 +192,13 @@ function volumeDot(a) {
   return a.volume_confirmed ? 'green' : 'grey';
 }
 
+function fmtChange(v) {
+  if (v === null || v === undefined || isNaN(v)) return '<span class="mono" style="color:var(--muted)">—</span>';
+  const cls = v >= 0 ? 'pos' : 'neg';
+  const sign = v >= 0 ? '+' : '';
+  return `<span class="mono change-${cls}">${sign}${v.toFixed(2)}%</span>`;
+}
+
 function renderMatrix(data) {
   const container = document.getElementById('matrix-container');
   const assets = data.assets || [];
@@ -204,7 +213,7 @@ function renderMatrix(data) {
       return `
         <tr>
           <td data-label="Asset"><span class="asset-name">${a.display}</span><span class="asset-interval">${a.interval}</span></td>
-          <td data-label="Stato" colspan="8"><span class="badge error-badge">ERRORE: ${a.error}</span></td>
+          <td data-label="Stato" colspan="9"><span class="badge error-badge">ERRORE: ${a.error}</span></td>
         </tr>
       `;
     }
@@ -217,6 +226,7 @@ function renderMatrix(data) {
       <tr>
         <td data-label="Asset"><span class="asset-name">${a.display}</span><span class="asset-interval">${a.interval}</span></td>
         <td data-label="Prezzo">${fmtPrice(a.close)}</td>
+        <td data-label="Var. 24h">${fmtChange(a.change_24h_pct)}</td>
         <td data-label="RSI"><span class="kpi-dot ${rsiDot(a)}"></span> <span class="mono">${a.rsi ?? '—'}</span></td>
         <td data-label="Trend"><span class="kpi-dot ${trendDot(a)}"></span></td>
         <td data-label="MACD"><span class="kpi-dot ${macdDot(a)}"></span></td>
@@ -232,7 +242,7 @@ function renderMatrix(data) {
     <table>
       <thead>
         <tr>
-          <th>Asset</th><th>Prezzo</th><th>RSI</th><th>Trend</th><th>MACD</th>
+          <th>Asset</th><th>Prezzo</th><th>Var. 24h</th><th>RSI</th><th>Trend</th><th>MACD</th>
           <th>Volume</th><th>Long pronto</th><th>Short pronto</th><th>Posizione</th>
         </tr>
       </thead>
