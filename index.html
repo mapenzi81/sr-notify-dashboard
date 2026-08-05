@@ -226,6 +226,8 @@
   .badge.stop_loss { background: var(--stop-dim); color: var(--stop); }
   .badge.take_profit { background: var(--tp-dim); color: var(--tp); }
   .badge.indicator_signal { background: rgba(88,166,255,0.12); color: var(--neutral); }
+  .badge.long-badge { background: var(--long-dim); color: var(--long); font-weight: 600; margin-left: 6px; }
+  .badge.short-badge { background: rgba(251,146,60,0.14); color: #FB923C; font-weight: 600; margin-left: 6px; }
 
   .pct.pos { color: var(--long); }
   .pct.neg { color: var(--stop); }
@@ -353,14 +355,23 @@ function renderPositions(state) {
 
   container.innerHTML = openEntries.map(([symbol, pos]) => {
     const entry = pos.entry_price, sl = pos.sl_price, tp = pos.tp_price;
-    // posizione percentuale dei marker SL/TP sul gauge (entry sempre al 50%)
-    const slPct = sl ? Math.max(0, 50 - ((entry - sl) / entry * 100) * 3) : 15;
-    const tpPct = tp ? Math.min(100, 50 + ((tp - entry) / entry * 100) * 3) : 85;
+    const direction = pos.direction || 'long';
+    const isShort = direction === 'short';
+
+    // Posizione percentuale sul gauge, generica: funziona sia se il valore è sopra
+    // che sotto l'ingresso (per gli short, SL sta sopra ed è TP sotto, il contrario del long).
+    const markerPos = (value) => {
+      if (!value || !entry) return 50;
+      const pct = (value - entry) / entry * 100;
+      return Math.min(95, Math.max(5, 50 + pct * 3));
+    };
+    const slPct = markerPos(sl);
+    const tpPct = markerPos(tp);
 
     return `
       <div class="position">
         <div class="position-head">
-          <span class="asset">${symbol}</span>
+          <span class="asset">${symbol} <span class="badge ${isShort ? 'short-badge' : 'long-badge'}">${isShort ? 'SHORT' : 'LONG'}</span></span>
           <span class="opened">aperta il ${pos.opened_at || '—'}</span>
         </div>
         <div class="gauge">
@@ -373,7 +384,7 @@ function renderPositions(state) {
           <span class="entry-lbl mono">ingresso ${fmtPrice(entry)}</span>
           <span class="tp-lbl mono">TP ${fmtPrice(tp)}</span>
         </div>
-        <div class="action-note">Suggerimento: MANTIENI — in attesa che il prezzo raggiunga SL o TP, oppure che scatti un nuovo segnale di chiusura dagli indicatori.</div>
+        <div class="action-note">Suggerimento: MANTIENI — in attesa che il prezzo raggiunga SL o TP${isShort ? ' (invertiti per lo short: SL sopra, TP sotto)' : ''}, oppure che scatti un nuovo segnale di chiusura dagli indicatori.</div>
       </div>
     `;
   }).join('');
@@ -408,9 +419,12 @@ function renderHistory(trades) {
   const rows = trades.slice().reverse().map(t => {
     const pct = parseFloat(t.pct_return);
     const pctClass = pct >= 0 ? 'pos' : 'neg';
+    const direction = t.direction || 'long';
+    const isShort = direction === 'short';
     return `
       <tr>
         <td data-label="Asset">${t.display || t.symbol}</td>
+        <td data-label="Direzione"><span class="badge ${isShort ? 'short-badge' : 'long-badge'}">${isShort ? 'SHORT' : 'LONG'}</span></td>
         <td data-label="Aperta">${t.opened_at}</td>
         <td data-label="Chiusa">${t.closed_at}</td>
         <td data-label="Ingresso">${fmtPrice(t.entry_price)}</td>
@@ -427,7 +441,7 @@ function renderHistory(trades) {
     <table>
       <thead>
         <tr>
-          <th>Asset</th><th>Aperta</th><th>Chiusa</th><th>Ingresso</th><th>Uscita</th>
+          <th>Asset</th><th>Direzione</th><th>Aperta</th><th>Chiusa</th><th>Ingresso</th><th>Uscita</th>
           <th>SL</th><th>TP</th><th>Rendimento</th><th>Motivo</th>
         </tr>
       </thead>
