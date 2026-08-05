@@ -1,12 +1,5 @@
 {
-     "BTCUSDT": {
-       "open": true,
-       "entry_price": 64000.0,
-       "sl_price": 60800.0,
-       "tp_price": 70400.0,
-       "opened_at": "2026-08-05 10:00 UTC"
-     },
-     "_meta": {
-       "last_run": "test manuale"
-     }
-   }
+  "_meta": {
+    "last_run": "2026-08-05 13:10 UTC"
+  }
+}
