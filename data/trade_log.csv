@@ -1,3 +1,1 @@
-symbol,display,entry_price,exit_price,sl_price,tp_price,pct_return,opened_at,closed_at,close_reason
-   ETHUSDT,ETH/USDT,1850.0,2005.3,1757.5,2035.0,8.39,2026-07-20 08:00 UTC,2026-07-24 16:00 UTC,indicator_signal
-   GC=F,Oro (Gold Futures),2380.5,2261.4,2261.5,2618.5,-5.0,2026-07-15 09:00 UTC,2026-07-16 14:00 UTC,stop_loss
+
