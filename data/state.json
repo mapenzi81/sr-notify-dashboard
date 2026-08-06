@@ -1,5 +1,101 @@
 {
   "_meta": {
-    "last_run": "2026-08-06 07:45 UTC"
+    "last_run": "2026-08-06 07:50 UTC"
+  },
+  "BTCUSDT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 64815.99,
+    "sl_price": 64662.5732145,
+    "tp_price": 65122.823571,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "ETHUSDT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 1908.61,
+    "sl_price": 1902.0592855,
+    "tp_price": 1921.711429,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "SOLUSDT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 73.92,
+    "sl_price": 73.65214350000001,
+    "tp_price": 74.455713,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "XRPUSDT": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 1.0487,
+    "sl_price": 1.0521185,
+    "tp_price": 1.041863,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "AVAXUSDT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 6.686,
+    "sl_price": 6.658679,
+    "tp_price": 6.740642,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "GC=F": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 4314.7001953125,
+    "sl_price": 4346.3609623125,
+    "tp_price": 4251.3786613125,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "TSLA": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 322.1600036621094,
+    "sl_price": 323.82258866210935,
+    "tp_price": 318.83483366210936,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "NVDA": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 220.25,
+    "sl_price": 221.4470645,
+    "tp_price": 217.855871,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "COIN": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 151.4250030517578,
+    "sl_price": 149.72935955175782,
+    "tp_price": 154.81629005175782,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "CBRS": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 216.35000610351562,
+    "sl_price": 219.26761260351563,
+    "tp_price": 210.51479310351561,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "XNDU": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 11.460000038146973,
+    "sl_price": 11.343964538146972,
+    "tp_price": 11.692071038146972,
+    "opened_at": "2026-08-06 07:50 UTC"
+  },
+  "YXT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 25.309999465942383,
+    "sl_price": 19.566949465942383,
+    "tp_price": 36.79609946594238,
+    "opened_at": "2026-08-06 07:50 UTC"
   }
 }

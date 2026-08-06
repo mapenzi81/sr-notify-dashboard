@@ -191,6 +191,12 @@ function macdDot(a) {
 function volumeDot(a) {
   return a.volume_confirmed ? 'green' : 'grey';
 }
+function vwapDot(a) {
+  if (a.vwap === null || a.vwap === undefined) return 'grey';
+  if (a.vwap_long_ok && !a.vwap_short_ok) return 'green';
+  if (a.vwap_short_ok && !a.vwap_long_ok) return 'red';
+  return 'grey';
+}
 
 function fmtChange(v) {
   if (v === null || v === undefined || isNaN(v)) return '<span class="mono" style="color:var(--muted)">—</span>';
@@ -213,7 +219,7 @@ function renderMatrix(data) {
       return `
         <tr>
           <td data-label="Asset"><span class="asset-name">${a.display}</span><span class="asset-interval">${a.interval}</span></td>
-          <td data-label="Stato" colspan="9"><span class="badge error-badge">ERRORE: ${a.error}</span></td>
+          <td data-label="Stato" colspan="11"><span class="badge error-badge">ERRORE: ${a.error}</span></td>
         </tr>
       `;
     }
@@ -221,6 +227,10 @@ function renderMatrix(data) {
     const posBadge = a.position_open
       ? `<span class="badge ${a.direction === 'short' ? 'short-badge' : 'long-badge'}">${a.direction === 'short' ? 'SHORT' : 'LONG'}</span>`
       : `<span class="badge none-badge">—</span>`;
+
+    let breakoutLabel = '<span class="mono" style="color:var(--muted)">—</span>';
+    if (a.breakout_up) breakoutLabel = '<span class="mono change-pos">↑ sopra max prec.</span>';
+    else if (a.breakout_down) breakoutLabel = '<span class="mono change-neg">↓ sotto min prec.</span>';
 
     return `
       <tr>
@@ -231,8 +241,10 @@ function renderMatrix(data) {
         <td data-label="Trend"><span class="kpi-dot ${trendDot(a)}"></span></td>
         <td data-label="MACD"><span class="kpi-dot ${macdDot(a)}"></span></td>
         <td data-label="Volume"><span class="kpi-dot ${volumeDot(a)}"></span></td>
-        <td data-label="Long pronto"><span class="kpi-dot ${a.long_entry ? 'green' : 'outline-green'}"></span></td>
-        <td data-label="Short pronto"><span class="kpi-dot ${a.short_entry ? 'orange' : 'outline-orange'}"></span></td>
+        <td data-label="VWAP"><span class="kpi-dot ${vwapDot(a)}"></span></td>
+        <td data-label="Breakout g. prec.">${breakoutLabel}</td>
+        <td data-label="Long pronto"><span class="kpi-dot ${a.long_entry ? 'green' : 'outline-green'}"></span> <span class="mono" style="color:var(--muted);font-size:10px">${a.long_score ?? '—'}/5</span></td>
+        <td data-label="Short pronto"><span class="kpi-dot ${a.short_entry ? 'orange' : 'outline-orange'}"></span> <span class="mono" style="color:var(--muted);font-size:10px">${a.short_score ?? '—'}/5</span></td>
         <td data-label="Posizione">${posBadge}</td>
       </tr>
     `;
@@ -243,7 +255,7 @@ function renderMatrix(data) {
       <thead>
         <tr>
           <th>Asset</th><th>Prezzo</th><th>Var. 24h</th><th>RSI</th><th>Trend</th><th>MACD</th>
-          <th>Volume</th><th>Long pronto</th><th>Short pronto</th><th>Posizione</th>
+          <th>Volume</th><th>VWAP</th><th>Breakout g. prec.</th><th>Long pronto</th><th>Short pronto</th><th>Posizione</th>
         </tr>
       </thead>
       <tbody>${rows}</tbody>
