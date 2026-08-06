@@ -75,7 +75,7 @@
     "opened_at": "2026-08-06 11:45 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 11:45 UTC"
+    "last_run": "2026-08-06 11:50 UTC"
   },
   "BTCUSDT": {
     "open": true,
@@ -89,6 +89,11 @@
     "open": false
   },
   "GC=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 4314.7001953125,
+    "sl_price": 4357.847197265625,
+    "tp_price": 4228.40619140625,
+    "opened_at": "2026-08-06 11:50 UTC"
   }
 }
