@@ -48,10 +48,20 @@
     "opened_at": "2026-08-06 13:25 UTC"
   },
   "COIN": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 149.89999389648438,
+    "sl_price": 151.6791558964844,
+    "tp_price": 146.34166989648438,
+    "opened_at": "2026-08-06 13:40 UTC"
   },
   "CBRS": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 214.0,
+    "sl_price": 216.8581525,
+    "tp_price": 208.283695,
+    "opened_at": "2026-08-06 13:40 UTC"
   },
   "XNDU": {
     "open": true,
@@ -70,7 +80,7 @@
     "opened_at": "2026-08-06 13:25 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 13:35 UTC"
+    "last_run": "2026-08-06 13:40 UTC"
   },
   "BTCUSDT": {
     "open": true,
