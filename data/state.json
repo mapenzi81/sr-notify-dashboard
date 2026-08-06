@@ -1,11 +1,6 @@
 {
   "SOLUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 73.28,
-    "sl_price": 80.608,
-    "tp_price": 58.624,
-    "opened_at": "2026-08-06 12:16 UTC"
+    "open": false
   },
   "DOGEUSDT": {
     "open": true,
@@ -75,7 +70,7 @@
     "opened_at": "2026-08-06 12:35 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 12:35 UTC"
+    "last_run": "2026-08-06 12:40 UTC"
   },
   "BTCUSDT": {
     "open": false
@@ -92,6 +87,11 @@
     "opened_at": "2026-08-06 12:35 UTC"
   },
   "CL=F": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 75.69000244140625,
+    "sl_price": 74.80286044140625,
+    "tp_price": 77.46428644140624,
+    "opened_at": "2026-08-06 12:40 UTC"
   }
 }
