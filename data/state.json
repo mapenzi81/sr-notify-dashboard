@@ -75,7 +75,7 @@
     "opened_at": "2026-08-06 11:20 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 11:30 UTC"
+    "last_run": "2026-08-06 11:35 UTC"
   },
   "BTCUSDT": {
     "open": true,
@@ -86,12 +86,7 @@
     "opened_at": "2026-08-06 11:15 UTC"
   },
   "ETHUSDT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 1902.33,
-    "sl_price": 1712.097,
-    "tp_price": 2282.796,
-    "opened_at": "2026-08-06 11:15 UTC"
+    "open": false
   },
   "GC=F": {
     "open": true,
