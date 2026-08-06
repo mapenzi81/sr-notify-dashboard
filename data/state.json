@@ -1,35 +1,15 @@
 {
   "SOLUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 73.34,
-    "sl_price": 80.674,
-    "tp_price": 58.672000000000004,
-    "opened_at": "2026-08-06 10:55 UTC"
+    "open": false
   },
   "DOGEUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 0.06906,
-    "sl_price": 0.07596599999999999,
-    "tp_price": 0.055248,
-    "opened_at": "2026-08-06 10:55 UTC"
+    "open": false
   },
   "XRPUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1.0471,
-    "sl_price": 1.15181,
-    "tp_price": 0.83768,
-    "opened_at": "2026-08-06 10:55 UTC"
+    "open": false
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 6.403,
-    "sl_price": 7.0432999999999995,
-    "tp_price": 5.1224,
-    "opened_at": "2026-08-06 10:55 UTC"
+    "open": false
   },
   "TSLA": {
     "open": true,
@@ -40,12 +20,7 @@
     "opened_at": "2026-08-06 10:55 UTC"
   },
   "NVDA": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 220.25,
-    "sl_price": 222.4525,
-    "tp_price": 215.845,
-    "opened_at": "2026-08-06 10:55 UTC"
+    "open": false
   },
   "COIN": {
     "open": true,
@@ -64,22 +39,28 @@
     "opened_at": "2026-08-06 10:55 UTC"
   },
   "XNDU": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 11.460000038146973,
-    "sl_price": 11.343964538146972,
-    "tp_price": 11.692071038146972,
-    "opened_at": "2026-08-06 10:55 UTC"
+    "open": false
   },
   "YXT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 25.309999465942383,
-    "sl_price": 19.566949465942383,
-    "tp_price": 36.79609946594238,
-    "opened_at": "2026-08-06 10:55 UTC"
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-06 11:10 UTC"
+    "last_run": "2026-08-06 11:15 UTC"
+  },
+  "BTCUSDT": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 64574.3,
+    "sl_price": 71031.73000000001,
+    "tp_price": 51659.44,
+    "opened_at": "2026-08-06 11:15 UTC"
+  },
+  "ETHUSDT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 1902.33,
+    "sl_price": 1712.097,
+    "tp_price": 2282.796,
+    "opened_at": "2026-08-06 11:15 UTC"
   }
 }
