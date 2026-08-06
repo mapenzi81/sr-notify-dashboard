@@ -1,0 +1,85 @@
+{
+  "SOLUSDT": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 73.34,
+    "sl_price": 80.674,
+    "tp_price": 58.672000000000004,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "DOGEUSDT": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 0.06906,
+    "sl_price": 0.07596599999999999,
+    "tp_price": 0.055248,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "XRPUSDT": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 1.0471,
+    "sl_price": 1.15181,
+    "tp_price": 0.83768,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "AVAXUSDT": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 6.403,
+    "sl_price": 7.0432999999999995,
+    "tp_price": 5.1224,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "TSLA": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 322.1600036621094,
+    "sl_price": 325.3816036987305,
+    "tp_price": 315.7168035888672,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "NVDA": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 220.25,
+    "sl_price": 222.4525,
+    "tp_price": 215.845,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "COIN": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 151.4250030517578,
+    "sl_price": 149.72935955175782,
+    "tp_price": 154.81629005175782,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "CBRS": {
+    "open": true,
+    "direction": "short",
+    "entry_price": 216.35000610351562,
+    "sl_price": 219.26761260351563,
+    "tp_price": 210.51479310351561,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "XNDU": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 11.460000038146973,
+    "sl_price": 11.343964538146972,
+    "tp_price": 11.692071038146972,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "YXT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 25.309999465942383,
+    "sl_price": 19.566949465942383,
+    "tp_price": 36.79609946594238,
+    "opened_at": "2026-08-06 10:55 UTC"
+  },
+  "_meta": {
+    "last_run": "2026-08-06 10:55 UTC"
+  }
+}
