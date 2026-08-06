@@ -16,7 +16,12 @@
     "opened_at": "2026-08-06 08:30 UTC"
   },
   "GC=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 4321.7001953125,
+    "sl_price": 4364.917197265625,
+    "tp_price": 4235.26619140625,
+    "opened_at": "2026-08-06 08:35 UTC"
   },
   "TSLA": {
     "open": true,
@@ -27,7 +32,12 @@
     "opened_at": "2026-08-06 08:30 UTC"
   },
   "NVDA": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 220.25,
+    "sl_price": 222.4525,
+    "tp_price": 215.845,
+    "opened_at": "2026-08-06 08:35 UTC"
   },
   "COIN": {
     "open": true,
@@ -46,12 +56,22 @@
     "opened_at": "2026-08-06 08:30 UTC"
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 11.460000038146973,
+    "sl_price": 11.343964538146972,
+    "tp_price": 11.692071038146972,
+    "opened_at": "2026-08-06 08:35 UTC"
   },
   "YXT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 25.309999465942383,
+    "sl_price": 19.566949465942383,
+    "tp_price": 36.79609946594238,
+    "opened_at": "2026-08-06 08:35 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 08:30 UTC"
+    "last_run": "2026-08-06 08:35 UTC"
   }
 }
