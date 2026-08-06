@@ -1,14 +1,14 @@
 {
   "ETHUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1907.54,
-    "sl_price": 1926.6154,
-    "tp_price": 1869.3892,
-    "opened_at": "2026-08-06 09:20 UTC"
+    "open": false
   },
   "SOLUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 73.53,
+    "sl_price": 74.2653,
+    "tp_price": 72.0594,
+    "opened_at": "2026-08-06 09:30 UTC"
   },
   "GC=F": {
     "open": false
@@ -22,12 +22,7 @@
     "opened_at": "2026-08-06 08:30 UTC"
   },
   "NVDA": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 220.25,
-    "sl_price": 222.4525,
-    "tp_price": 215.845,
-    "opened_at": "2026-08-06 09:25 UTC"
+    "open": false
   },
   "COIN": {
     "open": true,
@@ -46,23 +41,13 @@
     "opened_at": "2026-08-06 08:30 UTC"
   },
   "XNDU": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 11.460000038146973,
-    "sl_price": 11.343964538146972,
-    "tp_price": 11.692071038146972,
-    "opened_at": "2026-08-06 09:25 UTC"
+    "open": false
   },
   "YXT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 25.309999465942383,
-    "sl_price": 19.566949465942383,
-    "tp_price": 36.79609946594238,
-    "opened_at": "2026-08-06 09:25 UTC"
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-06 09:25 UTC"
+    "last_run": "2026-08-06 09:30 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -76,7 +61,12 @@
     "open": false
   },
   "DOGEUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 0.06943,
+    "sl_price": 0.0701243,
+    "tp_price": 0.0680414,
+    "opened_at": "2026-08-06 09:30 UTC"
   },
   "CL=F": {
     "open": true,
@@ -87,11 +77,6 @@
     "opened_at": "2026-08-06 09:10 UTC"
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 6.643,
-    "sl_price": 6.70943,
-    "tp_price": 6.51014,
-    "opened_at": "2026-08-06 09:15 UTC"
+    "open": false
   }
 }
