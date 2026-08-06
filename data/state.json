@@ -33,7 +33,12 @@
     "opened_at": "2026-08-06 14:15 UTC"
   },
   "COIN": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 151.4250030517578,
+    "sl_price": 149.72935955175782,
+    "tp_price": 154.81629005175782,
+    "opened_at": "2026-08-06 14:40 UTC"
   },
   "CBRS": {
     "open": true,
@@ -44,7 +49,12 @@
     "opened_at": "2026-08-06 14:30 UTC"
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 11.460000038146973,
+    "sl_price": 11.343964538146972,
+    "tp_price": 11.692071038146972,
+    "opened_at": "2026-08-06 14:40 UTC"
   },
   "YXT": {
     "open": true,
@@ -55,7 +65,7 @@
     "opened_at": "2026-08-06 14:35 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 14:35 UTC"
+    "last_run": "2026-08-06 14:40 UTC"
   },
   "BTCUSDT": {
     "open": true,
@@ -74,7 +84,12 @@
     "opened_at": "2026-08-06 14:15 UTC"
   },
   "GC=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 4314.7001953125,
+    "sl_price": 4357.847197265625,
+    "tp_price": 4228.40619140625,
+    "opened_at": "2026-08-06 14:40 UTC"
   },
   "CL=F": {
     "open": true,
