@@ -46,16 +46,26 @@
     "open": false
   },
   "CBRS": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 212.28500366210938,
+    "sl_price": 217.10039816210937,
+    "tp_price": 202.65421466210938,
+    "opened_at": "2026-08-06 14:55 UTC"
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 10.529999732971191,
+    "sl_price": 10.82722473297119,
+    "tp_price": 9.935549732971191,
+    "opened_at": "2026-08-06 14:55 UTC"
   },
   "YXT": {
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-06 14:50 UTC"
+    "last_run": "2026-08-06 14:55 UTC"
   },
   "BTCUSDT": {
     "open": true,
