@@ -43,42 +43,27 @@
     "opened_at": "2026-08-06 14:15 UTC"
   },
   "COIN": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 151.4250030517578,
-    "sl_price": 149.72935955175782,
-    "tp_price": 154.81629005175782,
-    "opened_at": "2026-08-06 14:40 UTC"
+    "open": false
   },
   "CBRS": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 214.4199981689453,
-    "sl_price": 209.94638016894532,
-    "tp_price": 223.36723416894532,
-    "opened_at": "2026-08-06 14:30 UTC"
+    "open": false
   },
   "XNDU": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 11.460000038146973,
-    "sl_price": 11.343964538146972,
-    "tp_price": 11.692071038146972,
-    "opened_at": "2026-08-06 14:40 UTC"
+    "open": false
   },
   "YXT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 25.309999465942383,
-    "sl_price": 19.566949465942383,
-    "tp_price": 36.79609946594238,
-    "opened_at": "2026-08-06 14:35 UTC"
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-06 14:45 UTC"
+    "last_run": "2026-08-06 14:50 UTC"
   },
   "BTCUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 64810.31,
+    "sl_price": 58329.278999999995,
+    "tp_price": 77772.372,
+    "opened_at": "2026-08-06 14:50 UTC"
   },
   "ETHUSDT": {
     "open": true,
