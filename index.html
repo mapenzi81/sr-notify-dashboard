@@ -345,9 +345,15 @@ function fmtPct(v) {
   return (n > 0 ? '+' : '') + n.toFixed(2) + '%';
 }
 
+function optimismColor(pct) {
+  if (pct >= 70) return 'var(--long)';
+  if (pct >= 45) return 'var(--tp)';
+  return 'var(--stop)';
+}
+
 function renderPositions(state) {
   const container = document.getElementById('positions-container');
-  const openEntries = Object.entries(state).filter(([k, v]) => k !== '_meta' && v.open);
+  let openEntries = Object.entries(state).filter(([k, v]) => k !== '_meta' && v.open);
 
   document.getElementById('stat-open').textContent = openEntries.length;
 
@@ -356,10 +362,17 @@ function renderPositions(state) {
     return;
   }
 
+  // Ordino per punteggio di ottimismo decrescente: le posizioni che meritano più
+  // attenzione positiva (buon progresso + ingresso solido) in cima.
+  openEntries.sort((a, b) => (b[1].optimism_pct ?? 50) - (a[1].optimism_pct ?? 50));
+
   container.innerHTML = openEntries.map(([symbol, pos]) => {
     const entry = pos.entry_price, sl = pos.sl_price, tp = pos.tp_price;
     const direction = pos.direction || 'long';
     const isShort = direction === 'short';
+    const optimism = pos.optimism_pct;
+    const progress = pos.progress_pct;
+    const entryScore = pos.entry_score;
 
     // Posizione percentuale sul gauge, generica: funziona sia se il valore è sopra
     // che sotto l'ingresso (per gli short, SL sta sopra ed è TP sotto, il contrario del long).
@@ -371,11 +384,18 @@ function renderPositions(state) {
     const slPct = markerPos(sl);
     const tpPct = markerPos(tp);
 
+    const optimismBadge = optimism !== undefined && optimism !== null
+      ? `<span class="mono" style="color:${optimismColor(optimism)};font-weight:700;font-size:15px">${optimism}%</span> <span style="color:var(--muted);font-size:11px">ottimismo</span>`
+      : '';
+    const detailLine = (progress !== undefined && progress !== null)
+      ? `<span class="mono" style="color:var(--muted)">progresso prezzo: ${progress > 0 ? '+' : ''}${progress}% · ingresso: ${entryScore ?? '—'}/5 condizioni</span>`
+      : '';
+
     return `
       <div class="position">
         <div class="position-head">
           <span class="asset">${symbol} <span class="badge ${isShort ? 'short-badge' : 'long-badge'}">${isShort ? 'SHORT' : 'LONG'}</span></span>
-          <span class="opened">aperta il ${pos.opened_at || '—'}</span>
+          ${optimismBadge}
         </div>
         <div class="gauge">
           <div class="marker sl" style="left:${slPct}%"></div>
@@ -387,7 +407,10 @@ function renderPositions(state) {
           <span class="entry-lbl mono">ingresso ${fmtPrice(entry)}</span>
           <span class="tp-lbl mono">TP ${fmtPrice(tp)}</span>
         </div>
-        <div class="action-note">Suggerimento: MANTIENI — in attesa che il prezzo raggiunga SL o TP${isShort ? ' (invertiti per lo short: SL sopra, TP sotto)' : ''}, oppure che scatti un nuovo segnale di chiusura dagli indicatori.</div>
+        <div class="action-note">
+          ${detailLine}<br>
+          aperta il ${pos.opened_at || '—'}
+        </div>
       </div>
     `;
   }).join('');
