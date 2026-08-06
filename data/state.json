@@ -8,13 +8,23 @@
     "opened_at": "2026-08-06 12:16 UTC"
   },
   "DOGEUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 0.06911,
+    "sl_price": 0.076021,
+    "tp_price": 0.055288000000000004,
+    "opened_at": "2026-08-06 12:35 UTC"
   },
   "XRPUSDT": {
     "open": false
   },
   "AVAXUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 6.444,
+    "sl_price": 7.0884,
+    "tp_price": 5.1552,
+    "opened_at": "2026-08-06 12:35 UTC"
   },
   "TSLA": {
     "open": true,
@@ -25,7 +35,12 @@
     "opened_at": "2026-08-06 10:55 UTC"
   },
   "NVDA": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 220.25,
+    "sl_price": 222.4525,
+    "tp_price": 215.845,
+    "opened_at": "2026-08-06 12:35 UTC"
   },
   "COIN": {
     "open": true,
@@ -44,34 +59,39 @@
     "opened_at": "2026-08-06 10:55 UTC"
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 11.460000038146973,
+    "sl_price": 11.343964538146972,
+    "tp_price": 11.692071038146972,
+    "opened_at": "2026-08-06 12:35 UTC"
   },
   "YXT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 25.309999465942383,
+    "sl_price": 19.566949465942383,
+    "tp_price": 36.79609946594238,
+    "opened_at": "2026-08-06 12:35 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 12:31 UTC"
+    "last_run": "2026-08-06 12:35 UTC"
   },
   "BTCUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 64478.06,
-    "sl_price": 70925.866,
-    "tp_price": 51582.448,
-    "opened_at": "2026-08-06 12:15 UTC"
+    "open": false
   },
   "ETHUSDT": {
     "open": false
   },
   "GC=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 4314.7001953125,
+    "sl_price": 4357.847197265625,
+    "tp_price": 4228.40619140625,
+    "opened_at": "2026-08-06 12:35 UTC"
   },
   "CL=F": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 75.69000244140625,
-    "sl_price": 74.80286044140625,
-    "tp_price": 77.46428644140624,
-    "opened_at": "2026-08-06 12:15 UTC"
+    "open": false
   }
 }
