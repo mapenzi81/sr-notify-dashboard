@@ -1,9 +1,19 @@
 {
   "SOLUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 73.54,
+    "sl_price": 80.894,
+    "tp_price": 58.83200000000001,
+    "opened_at": "2026-08-06 14:45 UTC"
   },
   "DOGEUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 0.06916,
+    "sl_price": 0.076076,
+    "tp_price": 0.055328,
+    "opened_at": "2026-08-06 14:45 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -65,15 +75,10 @@
     "opened_at": "2026-08-06 14:35 UTC"
   },
   "_meta": {
-    "last_run": "2026-08-06 14:43 UTC"
+    "last_run": "2026-08-06 14:45 UTC"
   },
   "BTCUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 64243.78,
-    "sl_price": 70668.158,
-    "tp_price": 51395.024,
-    "opened_at": "2026-08-06 13:35 UTC"
+    "open": false
   },
   "ETHUSDT": {
     "open": true,
