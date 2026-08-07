@@ -18,11 +18,11 @@
     "tp_price": 0.083856,
     "opened_at": "2026-08-07 14:50 UTC",
     "entry_score": 3,
-    "progress_pct": -2.1,
-    "optimism_pct": 53.4
+    "progress_pct": -1.1,
+    "optimism_pct": 53.7
   },
   "_meta": {
-    "last_run": "2026-08-07 15:10 UTC"
+    "last_run": "2026-08-07 15:15 UTC"
   },
   "XRPUSDT": {
     "open": false
@@ -57,8 +57,8 @@
     "tp_price": 226.75059028613282,
     "opened_at": "2026-08-07 14:55 UTC",
     "entry_score": 3,
-    "progress_pct": -22.8,
-    "optimism_pct": 47.2
+    "progress_pct": 7.5,
+    "optimism_pct": 56.2
   },
   "XNDU": {
     "open": true,
@@ -68,8 +68,8 @@
     "tp_price": 10.4714504196167,
     "opened_at": "2026-08-07 14:05 UTC",
     "entry_score": 4,
-    "progress_pct": 13.3,
-    "optimism_pct": 66.0
+    "progress_pct": -23.6,
+    "optimism_pct": 54.9
   },
   "SOLUSDT": {
     "open": true,
@@ -79,8 +79,8 @@
     "tp_price": 88.44,
     "opened_at": "2026-08-07 14:20 UTC",
     "entry_score": 3,
-    "progress_pct": 0.1,
-    "optimism_pct": 54.0
+    "progress_pct": 1.0,
+    "optimism_pct": 54.3
   },
   "AVAXUSDT": {
     "open": true,
@@ -90,8 +90,8 @@
     "tp_price": 5.1424,
     "opened_at": "2026-08-07 15:05 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -1.7,
+    "optimism_pct": 53.5
   },
   "TSLA": {
     "open": true,
@@ -101,8 +101,8 @@
     "tp_price": 336.981786,
     "opened_at": "2026-08-07 15:01 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -5.4,
+    "optimism_pct": 52.4
   },
   "COIN": {
     "open": true,
@@ -112,8 +112,8 @@
     "tp_price": 159.07040870800782,
     "opened_at": "2026-08-07 15:01 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -32.3,
+    "optimism_pct": 44.3
   },
   "YXT": {
     "open": false
@@ -129,7 +129,7 @@
     "tp_price": 227.81689727783203,
     "opened_at": "2026-08-07 14:35 UTC",
     "entry_score": 3,
-    "progress_pct": -7.6,
-    "optimism_pct": 51.7
+    "progress_pct": 5.3,
+    "optimism_pct": 55.6
   }
 }
