@@ -6,7 +6,7 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-07 22:00 UTC"
+    "last_run": "2026-08-07 22:05 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -67,15 +67,7 @@
     "open": false
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 6.466,
-    "sl_price": 5.8194,
-    "tp_price": 7.7592,
-    "opened_at": "2026-08-07 21:45 UTC",
-    "entry_score": 3,
-    "progress_pct": -2.9,
-    "optimism_pct": 53.1
+    "open": false
   },
   "TSLA": {
     "open": false
@@ -95,15 +87,7 @@
     "open": false
   },
   "ETHUSDT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 1918.22,
-    "sl_price": 1726.3980000000001,
-    "tp_price": 2301.864,
-    "opened_at": "2026-08-07 21:45 UTC",
-    "entry_score": 3,
-    "progress_pct": -0.9,
-    "optimism_pct": 53.7
+    "open": false
   },
   "NVDA": {
     "open": true,
