@@ -14,7 +14,7 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-07 18:20 UTC"
+    "last_run": "2026-08-07 18:25 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -50,7 +50,15 @@
     "optimism_pct": 72.3
   },
   "CBRS": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 226.08779907226562,
+    "sl_price": 221.23706157226562,
+    "tp_price": 235.7892740722656,
+    "opened_at": "2026-08-07 18:25 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "XNDU": {
     "open": false
