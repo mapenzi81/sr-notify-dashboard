@@ -7,8 +7,8 @@
     "tp_price": 77797.008,
     "opened_at": "2026-08-07 14:15 UTC",
     "entry_score": 3,
-    "progress_pct": 1.5,
-    "optimism_pct": 54.5
+    "progress_pct": 0.6,
+    "optimism_pct": 54.2
   },
   "DOGEUSDT": {
     "open": true,
@@ -22,13 +22,21 @@
     "optimism_pct": 54.2
   },
   "_meta": {
-    "last_run": "2026-08-07 15:55 UTC"
+    "last_run": "2026-08-07 16:01 UTC"
   },
   "XRPUSDT": {
     "open": false
   },
   "GC=F": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 4401.2998046875,
+    "sl_price": 4357.286806640625,
+    "tp_price": 4489.32580078125,
+    "opened_at": "2026-08-07 16:01 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "CL=F": {
     "open": true,
@@ -49,8 +57,8 @@
     "tp_price": 226.75059028613282,
     "opened_at": "2026-08-07 14:55 UTC",
     "entry_score": 3,
-    "progress_pct": 83.7,
-    "optimism_pct": 79.1
+    "progress_pct": 99.5,
+    "optimism_pct": 83.8
   },
   "XNDU": {
     "open": false
@@ -63,8 +71,8 @@
     "tp_price": 88.44,
     "opened_at": "2026-08-07 14:20 UTC",
     "entry_score": 3,
-    "progress_pct": 1.6,
-    "optimism_pct": 54.5
+    "progress_pct": 1.2,
+    "optimism_pct": 54.4
   },
   "AVAXUSDT": {
     "open": false
@@ -77,8 +85,8 @@
     "tp_price": 339.8932234550781,
     "opened_at": "2026-08-07 15:55 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": -2.9,
+    "optimism_pct": 61.1
   },
   "COIN": {
     "open": true,
@@ -88,8 +96,8 @@
     "tp_price": 159.07040870800782,
     "opened_at": "2026-08-07 15:01 UTC",
     "entry_score": 3,
-    "progress_pct": -14.4,
-    "optimism_pct": 49.7
+    "progress_pct": -44.6,
+    "optimism_pct": 40.6
   },
   "YXT": {
     "open": false
@@ -105,7 +113,7 @@
     "tp_price": 228.8319012451172,
     "opened_at": "2026-08-07 15:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -23.4,
+    "optimism_pct": 47.0
   }
 }
