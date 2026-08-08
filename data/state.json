@@ -1,37 +1,45 @@
 {
   "BTCUSDT": {
-    "open": false
-  },
-  "DOGEUSDT": {
-    "open": false
-  },
-  "_meta": {
-    "last_run": "2026-08-08 04:00 UTC"
-  },
-  "XRPUSDT": {
-    "open": false
-  },
-  "GC=F": {
     "open": true,
     "direction": "long",
-    "entry_price": 4403.10009765625,
-    "sl_price": 4359.069096679687,
-    "tp_price": 4491.162099609375,
-    "opened_at": "2026-08-08 03:45 UTC",
+    "entry_price": 65033.0,
+    "sl_price": 58529.7,
+    "tp_price": 78039.6,
+    "opened_at": "2026-08-08 04:05 UTC",
     "entry_score": 3,
     "progress_pct": 0.0,
     "optimism_pct": 54.0
   },
-  "CL=F": {
+  "DOGEUSDT": {
     "open": true,
-    "direction": "short",
-    "entry_price": 77.02999877929688,
-    "sl_price": 78.04357127929687,
-    "tp_price": 75.00285377929687,
-    "opened_at": "2026-08-08 03:45 UTC",
-    "entry_score": 3,
+    "direction": "long",
+    "entry_price": 0.07031,
+    "sl_price": 0.063279,
+    "tp_price": 0.084372,
+    "opened_at": "2026-08-08 04:05 UTC",
+    "entry_score": 4,
     "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "optimism_pct": 62.0
+  },
+  "_meta": {
+    "last_run": "2026-08-08 04:05 UTC"
+  },
+  "XRPUSDT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 1.0373,
+    "sl_price": 0.9335700000000001,
+    "tp_price": 1.24476,
+    "opened_at": "2026-08-08 04:05 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
+  },
+  "GC=F": {
+    "open": false
+  },
+  "CL=F": {
+    "open": false
   },
   "CBRS": {
     "open": true,
@@ -56,7 +64,15 @@
     "optimism_pct": 65.4
   },
   "SOLUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 74.83,
+    "sl_price": 67.347,
+    "tp_price": 89.79599999999999,
+    "opened_at": "2026-08-08 04:05 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "AVAXUSDT": {
     "open": true,
@@ -87,7 +103,15 @@
     "open": false
   },
   "ETHUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 1918.08,
+    "sl_price": 1726.272,
+    "tp_price": 2301.696,
+    "opened_at": "2026-08-08 04:05 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "NVDA": {
     "open": true,
