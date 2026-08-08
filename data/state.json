@@ -22,7 +22,7 @@
     "optimism_pct": 62.0
   },
   "_meta": {
-    "last_run": "2026-08-08 14:35 UTC"
+    "last_run": "2026-08-08 14:40 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -80,7 +80,15 @@
     "optimism_pct": 65.4
   },
   "SOLUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 75.8,
+    "sl_price": 68.22,
+    "tp_price": 90.96,
+    "opened_at": "2026-08-08 14:40 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "AVAXUSDT": {
     "open": true,
@@ -133,6 +141,14 @@
     "optimism_pct": 52.6
   },
   "ZW=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 631.25,
+    "sl_price": 666.7946435,
+    "tp_price": 560.160713,
+    "opened_at": "2026-08-08 14:40 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   }
 }
