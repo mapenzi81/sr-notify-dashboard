@@ -1,6 +1,14 @@
 {
   "BTCUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 64863.03,
+    "sl_price": 71349.333,
+    "tp_price": 51890.424,
+    "opened_at": "2026-08-09 01:30 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "DOGEUSDT": {
     "open": true,
@@ -10,14 +18,22 @@
     "tp_price": 0.056255999999999994,
     "opened_at": "2026-08-09 01:15 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": 1.9,
+    "optimism_pct": 62.6
   },
   "_meta": {
-    "last_run": "2026-08-09 01:25 UTC"
+    "last_run": "2026-08-09 01:30 UTC"
   },
   "XRPUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 1.0358,
+    "sl_price": 1.13938,
+    "tp_price": 0.82864,
+    "opened_at": "2026-08-09 01:30 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "GC=F": {
     "open": true,
@@ -71,8 +87,8 @@
     "tp_price": 60.760000000000005,
     "opened_at": "2026-08-09 01:15 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": 1.2,
+    "optimism_pct": 62.4
   },
   "AVAXUSDT": {
     "open": true,
@@ -82,8 +98,8 @@
     "tp_price": 7.7904,
     "opened_at": "2026-08-09 01:15 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -2.3,
+    "optimism_pct": 53.3
   },
   "TSLA": {
     "open": false
@@ -110,8 +126,8 @@
     "tp_price": 2302.7400000000002,
     "opened_at": "2026-08-09 01:20 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -2.4,
+    "optimism_pct": 53.3
   },
   "NVDA": {
     "open": true,
@@ -125,6 +141,14 @@
     "optimism_pct": 52.6
   },
   "ZW=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 631.25,
+    "sl_price": 666.7946435,
+    "tp_price": 560.160713,
+    "opened_at": "2026-08-09 01:30 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   }
 }
