@@ -22,7 +22,7 @@
     "optimism_pct": 54.0
   },
   "_meta": {
-    "last_run": "2026-08-09 11:30 UTC"
+    "last_run": "2026-08-09 11:35 UTC"
   },
   "XRPUSDT": {
     "open": false
@@ -75,7 +75,15 @@
     "open": false
   },
   "AVAXUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 6.473,
+    "sl_price": 5.825699999999999,
+    "tp_price": 7.7676,
+    "opened_at": "2026-08-09 11:35 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "TSLA": {
     "open": false
