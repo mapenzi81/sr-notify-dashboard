@@ -14,18 +14,10 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-09 04:05 UTC"
+    "last_run": "2026-08-09 04:10 UTC"
   },
   "XRPUSDT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 1.0376,
-    "sl_price": 0.93384,
-    "tp_price": 1.24512,
-    "opened_at": "2026-08-09 03:50 UTC",
-    "entry_score": 4,
-    "progress_pct": -0.6,
-    "optimism_pct": 61.8
+    "open": false
   },
   "GC=F": {
     "open": true,
