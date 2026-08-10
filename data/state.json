@@ -1,14 +1,6 @@
 {
   "BTCUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 65055.0,
-    "sl_price": 71560.5,
-    "tp_price": 52044.0,
-    "opened_at": "2026-08-10 12:35 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.3,
-    "optimism_pct": 54.1
+    "open": false
   },
   "DOGEUSDT": {
     "open": true,
@@ -22,7 +14,7 @@
     "optimism_pct": 54.0
   },
   "_meta": {
-    "last_run": "2026-08-10 12:50 UTC"
+    "last_run": "2026-08-10 12:55 UTC"
   },
   "XRPUSDT": {
     "open": false
