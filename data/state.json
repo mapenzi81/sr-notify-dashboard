@@ -1,14 +1,6 @@
 {
   "BTCUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 63966.0,
-    "sl_price": 70362.6,
-    "tp_price": 51172.8,
-    "opened_at": "2026-08-10 16:45 UTC",
-    "entry_score": 4,
-    "progress_pct": 0.5,
-    "optimism_pct": 62.1
+    "open": false
   },
   "DOGEUSDT": {
     "open": true,
@@ -22,18 +14,10 @@
     "optimism_pct": 62.1
   },
   "_meta": {
-    "last_run": "2026-08-10 17:01 UTC"
+    "last_run": "2026-08-10 17:05 UTC"
   },
   "XRPUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1.0199,
-    "sl_price": 1.12189,
-    "tp_price": 0.81592,
-    "opened_at": "2026-08-10 16:45 UTC",
-    "entry_score": 4,
-    "progress_pct": 0.6,
-    "optimism_pct": 62.2
+    "open": false
   },
   "GC=F": {
     "open": true,
@@ -58,40 +42,16 @@
     "optimism_pct": 62.0
   },
   "CBRS": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 228.875,
-    "sl_price": 234.6839315,
-    "tp_price": 217.257137,
-    "opened_at": "2026-08-10 16:45 UTC",
-    "entry_score": 3,
-    "progress_pct": -11.9,
-    "optimism_pct": 50.4
+    "open": false
   },
   "XNDU": {
     "open": false
   },
   "SOLUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 75.76,
-    "sl_price": 83.33600000000001,
-    "tp_price": 60.608000000000004,
-    "opened_at": "2026-08-10 16:45 UTC",
-    "entry_score": 4,
-    "progress_pct": 0.4,
-    "optimism_pct": 62.1
+    "open": false
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 6.45,
-    "sl_price": 7.095000000000001,
-    "tp_price": 5.16,
-    "opened_at": "2026-08-10 16:45 UTC",
-    "entry_score": 3,
-    "progress_pct": 1.3,
-    "optimism_pct": 54.4
+    "open": false
   },
   "TSLA": {
     "open": false
@@ -107,19 +67,11 @@
     "tp_price": 6.19902920980835,
     "opened_at": "2026-08-10 16:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.2,
+    "optimism_pct": 54.1
   },
   "ETHUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1872.88,
-    "sl_price": 2060.168,
-    "tp_price": 1498.304,
-    "opened_at": "2026-08-10 16:45 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.1,
-    "optimism_pct": 54.0
+    "open": false
   },
   "NVDA": {
     "open": true,
