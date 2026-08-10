@@ -6,7 +6,7 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-10 19:10 UTC"
+    "last_run": "2026-08-10 19:15 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -16,8 +16,8 @@
     "tp_price": 0.8142400000000001,
     "opened_at": "2026-08-10 19:05 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -1.2,
+    "optimism_pct": 53.6
   },
   "GC=F": {
     "open": true,
@@ -52,8 +52,8 @@
     "tp_price": 10.436999626159668,
     "opened_at": "2026-08-10 18:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 14.1,
+    "optimism_pct": 58.2
   },
   "SOLUSDT": {
     "open": false
@@ -72,8 +72,8 @@
     "tp_price": 145.69670288085936,
     "opened_at": "2026-08-10 18:20 UTC",
     "entry_score": 3,
-    "progress_pct": 4.7,
-    "optimism_pct": 55.4
+    "progress_pct": -41.7,
+    "optimism_pct": 41.5
   },
   "YXT": {
     "open": false
