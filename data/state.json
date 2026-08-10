@@ -10,11 +10,11 @@
     "tp_price": 0.083916,
     "opened_at": "2026-08-10 11:15 UTC",
     "entry_score": 3,
-    "progress_pct": 0.9,
-    "optimism_pct": 54.3
+    "progress_pct": 0.7,
+    "optimism_pct": 54.2
   },
   "_meta": {
-    "last_run": "2026-08-10 11:40 UTC"
+    "last_run": "2026-08-10 11:45 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -24,8 +24,8 @@
     "tp_price": 1.24008,
     "opened_at": "2026-08-10 11:30 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -0.4,
+    "optimism_pct": 53.9
   },
   "GC=F": {
     "open": true,
@@ -79,8 +79,8 @@
     "tp_price": 92.256,
     "opened_at": "2026-08-10 11:30 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -0.5,
+    "optimism_pct": 53.8
   },
   "AVAXUSDT": {
     "open": true,
