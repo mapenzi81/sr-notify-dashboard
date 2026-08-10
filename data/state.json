@@ -1,6 +1,14 @@
 {
   "BTCUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 64646.01,
+    "sl_price": 71110.611,
+    "tp_price": 51716.808000000005,
+    "opened_at": "2026-08-10 13:50 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "DOGEUSDT": {
     "open": true,
@@ -14,7 +22,7 @@
     "optimism_pct": 54.0
   },
   "_meta": {
-    "last_run": "2026-08-10 13:45 UTC"
+    "last_run": "2026-08-10 13:50 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -61,7 +69,15 @@
     "optimism_pct": 77.4
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 10.739999771118164,
+    "sl_price": 10.857610271118164,
+    "tp_price": 10.504778771118165,
+    "opened_at": "2026-08-10 13:50 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "SOLUSDT": {
     "open": true,
@@ -93,11 +109,19 @@
     "tp_price": 335.1566912841797,
     "opened_at": "2026-08-10 13:30 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": -5.9,
+    "optimism_pct": 60.2
   },
   "COIN": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 151.64500427246094,
+    "sl_price": 153.60806177246093,
+    "tp_price": 147.71888927246093,
+    "opened_at": "2026-08-10 13:50 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "YXT": {
     "open": true,
@@ -107,11 +131,19 @@
     "tp_price": 4.945936828338623,
     "opened_at": "2026-08-10 13:30 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 80.3,
+    "optimism_pct": 78.1
   },
   "ETHUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 1901.12,
+    "sl_price": 2091.232,
+    "tp_price": 1520.896,
+    "opened_at": "2026-08-10 13:50 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "NVDA": {
     "open": true,
