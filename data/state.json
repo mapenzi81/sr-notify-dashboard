@@ -22,7 +22,7 @@
     "optimism_pct": 53.9
   },
   "_meta": {
-    "last_run": "2026-08-10 14:35 UTC"
+    "last_run": "2026-08-10 14:40 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -119,7 +119,15 @@
     "optimism_pct": 52.0
   },
   "ETHUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 1899.5,
+    "sl_price": 2089.45,
+    "tp_price": 1519.6,
+    "opened_at": "2026-08-10 14:40 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "NVDA": {
     "open": true,
