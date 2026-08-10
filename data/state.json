@@ -1,12 +1,20 @@
 {
   "BTCUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 63953.04,
+    "sl_price": 70348.344,
+    "tp_price": 51162.432,
+    "opened_at": "2026-08-10 18:00 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "DOGEUSDT": {
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-10 17:55 UTC"
+    "last_run": "2026-08-10 18:00 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -16,7 +24,7 @@
     "tp_price": 0.81616,
     "opened_at": "2026-08-10 17:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
+    "progress_pct": 0.1,
     "optimism_pct": 54.0
   },
   "GC=F": {
@@ -45,7 +53,15 @@
     "open": false
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 10.640000343322754,
+    "sl_price": 10.748439843322753,
+    "tp_price": 10.423121343322753,
+    "opened_at": "2026-08-10 18:00 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "SOLUSDT": {
     "open": true,
@@ -55,8 +71,8 @@
     "tp_price": 60.824,
     "opened_at": "2026-08-10 17:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.4,
+    "optimism_pct": 54.1
   },
   "AVAXUSDT": {
     "open": true,
@@ -66,8 +82,8 @@
     "tp_price": 5.1464,
     "opened_at": "2026-08-10 17:10 UTC",
     "entry_score": 4,
-    "progress_pct": -10.3,
-    "optimism_pct": 58.9
+    "progress_pct": -8.5,
+    "optimism_pct": 59.5
   },
   "TSLA": {
     "open": false
@@ -80,8 +96,8 @@
     "tp_price": 146.021884,
     "opened_at": "2026-08-10 17:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -8.1,
+    "optimism_pct": 51.6
   },
   "YXT": {
     "open": false
@@ -97,8 +113,8 @@
     "tp_price": 213.8358026123047,
     "opened_at": "2026-08-10 17:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -4.6,
+    "optimism_pct": 52.6
   },
   "ZW=F": {
     "open": true,
