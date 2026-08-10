@@ -7,14 +7,14 @@
     "tp_price": 52020.432,
     "opened_at": "2026-08-10 04:30 UTC",
     "entry_score": 3,
-    "progress_pct": 0.1,
-    "optimism_pct": 54.0
+    "progress_pct": 0.3,
+    "optimism_pct": 54.1
   },
   "DOGEUSDT": {
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-10 05:10 UTC"
+    "last_run": "2026-08-10 05:15 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -28,15 +28,7 @@
     "optimism_pct": 53.9
   },
   "GC=F": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 4396.5,
-    "sl_price": 4440.465,
-    "tp_price": 4308.57,
-    "opened_at": "2026-08-10 04:55 UTC",
-    "entry_score": 3,
-    "progress_pct": -6.8,
-    "optimism_pct": 52.0
+    "open": false
   },
   "CL=F": {
     "open": true,
@@ -102,7 +94,7 @@
     "tp_price": 1533.416,
     "opened_at": "2026-08-10 04:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.3,
+    "progress_pct": 0.2,
     "optimism_pct": 54.1
   },
   "NVDA": {
