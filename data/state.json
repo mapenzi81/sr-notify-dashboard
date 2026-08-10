@@ -7,14 +7,22 @@
     "tp_price": 51976.568,
     "opened_at": "2026-08-10 01:50 UTC",
     "entry_score": 3,
+    "progress_pct": -3.4,
+    "optimism_pct": 53.0
+  },
+  "DOGEUSDT": {
+    "open": true,
+    "direction": "long",
+    "entry_price": 0.06998,
+    "sl_price": 0.062982,
+    "tp_price": 0.083976,
+    "opened_at": "2026-08-10 02:00 UTC",
+    "entry_score": 3,
     "progress_pct": 0.0,
     "optimism_pct": 54.0
   },
-  "DOGEUSDT": {
-    "open": false
-  },
   "_meta": {
-    "last_run": "2026-08-10 01:55 UTC"
+    "last_run": "2026-08-10 02:00 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -24,8 +32,8 @@
     "tp_price": 0.8250400000000001,
     "opened_at": "2026-08-10 01:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -6.2,
+    "optimism_pct": 52.1
   },
   "GC=F": {
     "open": true,
@@ -71,11 +79,19 @@
     "tp_price": 61.272000000000006,
     "opened_at": "2026-08-10 01:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -4.0,
+    "optimism_pct": 52.8
   },
   "AVAXUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 6.526,
+    "sl_price": 5.8734,
+    "tp_price": 7.8312,
+    "opened_at": "2026-08-10 02:00 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "TSLA": {
     "open": false
@@ -95,7 +111,15 @@
     "open": false
   },
   "ETHUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 1925.23,
+    "sl_price": 1732.7069999999999,
+    "tp_price": 2310.276,
+    "opened_at": "2026-08-10 02:00 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "NVDA": {
     "open": true,
