@@ -22,7 +22,7 @@
     "optimism_pct": 61.7
   },
   "_meta": {
-    "last_run": "2026-08-10 16:05 UTC"
+    "last_run": "2026-08-10 16:10 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -43,8 +43,8 @@
     "tp_price": 4487.49,
     "opened_at": "2026-08-10 05:45 UTC",
     "entry_score": 3,
-    "progress_pct": 6.5,
-    "optimism_pct": 56.0
+    "progress_pct": 20.9,
+    "optimism_pct": 60.3
   },
   "CL=F": {
     "open": true,
@@ -54,8 +54,8 @@
     "tp_price": 83.16786105175781,
     "opened_at": "2026-08-10 15:20 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": 9.7,
+    "optimism_pct": 64.9
   },
   "CBRS": {
     "open": true,
