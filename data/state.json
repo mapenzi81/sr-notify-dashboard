@@ -7,25 +7,17 @@
     "tp_price": 51110.4,
     "opened_at": "2026-08-10 18:50 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
+    "progress_pct": -0.0,
     "optimism_pct": 62.0
   },
   "DOGEUSDT": {
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-10 18:55 UTC"
+    "last_run": "2026-08-10 19:00 UTC"
   },
   "XRPUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1.0196,
-    "sl_price": 1.1215600000000001,
-    "tp_price": 0.8156800000000001,
-    "opened_at": "2026-08-10 18:40 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.6,
-    "optimism_pct": 54.2
+    "open": false
   },
   "GC=F": {
     "open": true,
@@ -80,8 +72,8 @@
     "tp_price": 145.69670288085936,
     "opened_at": "2026-08-10 18:20 UTC",
     "entry_score": 3,
-    "progress_pct": -13.1,
-    "optimism_pct": 50.1
+    "progress_pct": 4.7,
+    "optimism_pct": 55.4
   },
   "YXT": {
     "open": false
