@@ -7,8 +7,8 @@
     "tp_price": 51136.0,
     "opened_at": "2026-08-11 06:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -0.8,
+    "optimism_pct": 53.8
   },
   "DOGEUSDT": {
     "open": true,
@@ -18,11 +18,11 @@
     "tp_price": 0.08418,
     "opened_at": "2026-08-11 05:55 UTC",
     "entry_score": 3,
-    "progress_pct": 0.2,
-    "optimism_pct": 54.1
+    "progress_pct": 0.1,
+    "optimism_pct": 54.0
   },
   "_meta": {
-    "last_run": "2026-08-11 06:55 UTC"
+    "last_run": "2026-08-11 07:00 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -32,8 +32,8 @@
     "tp_price": 0.8044,
     "opened_at": "2026-08-11 06:50 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": -0.8,
+    "optimism_pct": 61.8
   },
   "GC=F": {
     "open": true,
@@ -58,7 +58,15 @@
     "optimism_pct": 54.0
   },
   "CBRS": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 230.22000122070312,
+    "sl_price": 233.12898422070313,
+    "tp_price": 224.4020352207031,
+    "opened_at": "2026-08-11 07:00 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "XNDU": {
     "open": true,
@@ -79,19 +87,11 @@
     "tp_price": 60.64,
     "opened_at": "2026-08-11 05:40 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": -0.3,
+    "optimism_pct": 61.9
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 6.518,
-    "sl_price": 5.8662,
-    "tp_price": 7.8216,
-    "opened_at": "2026-08-11 06:25 UTC",
-    "entry_score": 4,
-    "progress_pct": -1.4,
-    "optimism_pct": 61.6
+    "open": false
   },
   "TSLA": {
     "open": true,
@@ -111,7 +111,15 @@
     "open": false
   },
   "ETHUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 1874.24,
+    "sl_price": 2061.664,
+    "tp_price": 1499.392,
+    "opened_at": "2026-08-11 07:00 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "NVDA": {
     "open": false
