@@ -1,6 +1,14 @@
 {
   "BTCUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 64319.62,
+    "sl_price": 57887.658,
+    "tp_price": 77183.54400000001,
+    "opened_at": "2026-08-11 13:20 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "DOGEUSDT": {
     "open": true,
@@ -14,7 +22,7 @@
     "optimism_pct": 62.5
   },
   "_meta": {
-    "last_run": "2026-08-11 13:15 UTC"
+    "last_run": "2026-08-11 13:20 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -39,10 +47,26 @@
     "optimism_pct": 54.0
   },
   "CL=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 82.55999755859375,
+    "sl_price": 83.64106705859375,
+    "tp_price": 80.39785855859375,
+    "opened_at": "2026-08-11 13:20 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "CBRS": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 230.22000122070312,
+    "sl_price": 233.12898422070313,
+    "tp_price": 224.4020352207031,
+    "opened_at": "2026-08-11 13:20 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "XNDU": {
     "open": true,
@@ -56,15 +80,7 @@
     "optimism_pct": 62.0
   },
   "SOLUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 75.87,
-    "sl_price": 83.45700000000001,
-    "tp_price": 60.696000000000005,
-    "opened_at": "2026-08-11 13:00 UTC",
-    "entry_score": 4,
-    "progress_pct": -1.3,
-    "optimism_pct": 61.6
+    "open": false
   },
   "AVAXUSDT": {
     "open": true,
