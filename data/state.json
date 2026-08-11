@@ -7,14 +7,14 @@
     "tp_price": 50598.832,
     "opened_at": "2026-08-11 19:15 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -1.7,
+    "optimism_pct": 53.5
   },
   "DOGEUSDT": {
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-11 19:25 UTC"
+    "last_run": "2026-08-11 19:30 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -24,8 +24,8 @@
     "tp_price": 1.2155999999999998,
     "opened_at": "2026-08-11 19:00 UTC",
     "entry_score": 3,
-    "progress_pct": -3.7,
-    "optimism_pct": 52.9
+    "progress_pct": -0.9,
+    "optimism_pct": 53.7
   },
   "GC=F": {
     "open": true,
@@ -50,15 +50,7 @@
     "optimism_pct": 51.8
   },
   "CBRS": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 231.5800018310547,
-    "sl_price": 227.1562798310547,
-    "tp_price": 240.42744583105468,
-    "opened_at": "2026-08-11 17:30 UTC",
-    "entry_score": 3,
-    "progress_pct": 29.7,
-    "optimism_pct": 62.9
+    "open": false
   },
   "XNDU": {
     "open": true,
@@ -68,8 +60,8 @@
     "tp_price": 10.1822003364563,
     "opened_at": "2026-08-11 18:50 UTC",
     "entry_score": 3,
-    "progress_pct": 5.7,
-    "optimism_pct": 55.7
+    "progress_pct": 9.6,
+    "optimism_pct": 56.9
   },
   "SOLUSDT": {
     "open": true,
@@ -79,8 +71,8 @@
     "tp_price": 60.048,
     "opened_at": "2026-08-11 17:55 UTC",
     "entry_score": 3,
-    "progress_pct": -0.3,
-    "optimism_pct": 53.9
+    "progress_pct": -3.1,
+    "optimism_pct": 53.1
   },
   "AVAXUSDT": {
     "open": false
@@ -96,8 +88,8 @@
     "tp_price": 143.94240478515624,
     "opened_at": "2026-08-11 18:40 UTC",
     "entry_score": 3,
-    "progress_pct": 11.7,
-    "optimism_pct": 57.5
+    "progress_pct": 2.2,
+    "optimism_pct": 54.7
   },
   "YXT": {
     "open": false
@@ -106,15 +98,7 @@
     "open": false
   },
   "NVDA": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 217.15789794921875,
-    "sl_price": 219.32947692871093,
-    "tp_price": 212.8147399902344,
-    "opened_at": "2026-08-11 19:00 UTC",
-    "entry_score": 3,
-    "progress_pct": -13.0,
-    "optimism_pct": 50.1
+    "open": false
   },
   "ZW=F": {
     "open": true,
