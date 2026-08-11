@@ -22,13 +22,21 @@
     "optimism_pct": 54.0
   },
   "_meta": {
-    "last_run": "2026-08-11 04:35 UTC"
+    "last_run": "2026-08-11 04:40 UTC"
   },
   "XRPUSDT": {
     "open": false
   },
   "GC=F": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 4486.5,
+    "sl_price": 4441.635,
+    "tp_price": 4576.23,
+    "opened_at": "2026-08-11 04:40 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "CL=F": {
     "open": true,
@@ -53,15 +61,7 @@
     "optimism_pct": 54.0
   },
   "XNDU": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 10.529999732971191,
-    "sl_price": 10.635299730300904,
-    "tp_price": 10.319399738311768,
-    "opened_at": "2026-08-11 04:20 UTC",
-    "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "open": false
   },
   "SOLUSDT": {
     "open": true,
