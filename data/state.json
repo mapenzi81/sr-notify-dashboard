@@ -11,33 +11,65 @@
     "optimism_pct": 53.5
   },
   "DOGEUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 0.07114,
+    "sl_price": 0.064026,
+    "tp_price": 0.085368,
+    "opened_at": "2026-08-11 14:20 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "_meta": {
-    "last_run": "2026-08-11 14:15 UTC"
+    "last_run": "2026-08-11 14:20 UTC"
   },
   "XRPUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 1.0094,
+    "sl_price": 0.90846,
+    "tp_price": 1.2112800000000001,
+    "opened_at": "2026-08-11 14:20 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "GC=F": {
-    "open": false
-  },
-  "CL=F": {
     "open": true,
     "direction": "short",
-    "entry_price": 82.55999755859375,
-    "sl_price": 83.64106705859375,
-    "tp_price": 80.39785855859375,
-    "opened_at": "2026-08-11 13:20 UTC",
+    "entry_price": 4448.2001953125,
+    "sl_price": 4492.682197265625,
+    "tp_price": 4359.23619140625,
+    "opened_at": "2026-08-11 14:20 UTC",
     "entry_score": 3,
-    "progress_pct": 43.5,
-    "optimism_pct": 67.0
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
+  },
+  "CL=F": {
+    "open": false
   },
   "CBRS": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 229.0399932861328,
+    "sl_price": 224.0773677861328,
+    "tp_price": 238.96524428613282,
+    "opened_at": "2026-08-11 14:20 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 10.430000305175781,
+    "sl_price": 10.55146730517578,
+    "tp_price": 10.187066305175781,
+    "opened_at": "2026-08-11 14:20 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "SOLUSDT": {
     "open": true,
@@ -73,15 +105,7 @@
     "optimism_pct": 62.0
   },
   "COIN": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 148.69000244140625,
-    "sl_price": 150.17690246582032,
-    "tp_price": 145.7162023925781,
-    "opened_at": "2026-08-11 13:30 UTC",
-    "entry_score": 3,
-    "progress_pct": -17.5,
-    "optimism_pct": 48.8
+    "open": false
   },
   "YXT": {
     "open": true,
@@ -113,8 +137,8 @@
     "tp_price": 216.17330657958985,
     "opened_at": "2026-08-11 13:50 UTC",
     "entry_score": 3,
-    "progress_pct": 16.0,
-    "optimism_pct": 58.8
+    "progress_pct": 15.1,
+    "optimism_pct": 58.5
   },
   "ZW=F": {
     "open": true,
