@@ -22,7 +22,7 @@
     "optimism_pct": 62.4
   },
   "_meta": {
-    "last_run": "2026-08-11 13:50 UTC"
+    "last_run": "2026-08-11 13:55 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -69,7 +69,15 @@
     "optimism_pct": 83.8
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 10.470000267028809,
+    "sl_price": 10.574700269699097,
+    "tp_price": 10.260600261688232,
+    "opened_at": "2026-08-11 13:55 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "SOLUSDT": {
     "open": true,
