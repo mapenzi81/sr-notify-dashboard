@@ -11,18 +11,10 @@
     "optimism_pct": 54.1
   },
   "DOGEUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 0.06998,
-    "sl_price": 0.076978,
-    "tp_price": 0.055984,
-    "opened_at": "2026-08-11 05:01 UTC",
-    "entry_score": 3,
-    "progress_pct": -1.4,
-    "optimism_pct": 53.6
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-11 05:20 UTC"
+    "last_run": "2026-08-11 05:25 UTC"
   },
   "XRPUSDT": {
     "open": false
