@@ -1,14 +1,6 @@
 {
   "BTCUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 63307.68,
-    "sl_price": 69638.448,
-    "tp_price": 50646.144,
-    "opened_at": "2026-08-11 18:45 UTC",
-    "entry_score": 4,
-    "progress_pct": -1.0,
-    "optimism_pct": 61.7
+    "open": false
   },
   "DOGEUSDT": {
     "open": true,
@@ -22,7 +14,7 @@
     "optimism_pct": 53.8
   },
   "_meta": {
-    "last_run": "2026-08-11 19:00 UTC"
+    "last_run": "2026-08-11 19:05 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -111,15 +103,7 @@
     "open": false
   },
   "ETHUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1863.88,
-    "sl_price": 2050.268,
-    "tp_price": 1491.104,
-    "opened_at": "2026-08-11 18:45 UTC",
-    "entry_score": 4,
-    "progress_pct": -1.2,
-    "optimism_pct": 61.6
+    "open": false
   },
   "NVDA": {
     "open": true,
