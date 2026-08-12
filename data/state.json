@@ -14,7 +14,7 @@
     "optimism_pct": 54.0
   },
   "_meta": {
-    "last_run": "2026-08-12 20:35 UTC"
+    "last_run": "2026-08-12 20:40 UTC"
   },
   "XRPUSDT": {
     "open": false
@@ -114,15 +114,7 @@
     "optimism_pct": 61.4
   },
   "NVDA": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 222.34030151367188,
-    "sl_price": 224.5637045288086,
-    "tp_price": 217.89349548339842,
-    "opened_at": "2026-08-12 20:20 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "ZW=F": {
     "open": true,
