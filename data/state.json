@@ -11,21 +11,21 @@
     "optimism_pct": 54.0
   },
   "DOGEUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 0.07161,
-    "sl_price": 0.078771,
-    "tp_price": 0.05728799999999999,
-    "opened_at": "2026-08-12 07:30 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.3,
-    "optimism_pct": 54.1
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 07:45 UTC"
+    "last_run": "2026-08-12 07:50 UTC"
   },
   "XRPUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 1.0195,
+    "sl_price": 1.12145,
+    "tp_price": 0.8156000000000001,
+    "opened_at": "2026-08-12 07:50 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "GC=F": {
     "open": true,
@@ -61,15 +61,7 @@
     "optimism_pct": 62.0
   },
   "XNDU": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 10.345000267028809,
-    "sl_price": 10.448450269699096,
-    "tp_price": 10.138100261688232,
-    "opened_at": "2026-08-12 07:30 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "SOLUSDT": {
     "open": true,
@@ -105,15 +97,7 @@
     "optimism_pct": 54.0
   },
   "COIN": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 147.90499877929688,
-    "sl_price": 146.4259487915039,
-    "tp_price": 150.8630987548828,
-    "opened_at": "2026-08-12 07:30 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "YXT": {
     "open": false
