@@ -14,7 +14,7 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 17:45 UTC"
+    "last_run": "2026-08-12 17:50 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -35,8 +35,8 @@
     "tp_price": 4372.46619140625,
     "opened_at": "2026-08-12 17:15 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -0.7,
+    "optimism_pct": 53.8
   },
   "CL=F": {
     "open": true,
@@ -107,19 +107,11 @@
     "tp_price": 4.291079,
     "opened_at": "2026-08-12 17:35 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -9.0,
+    "optimism_pct": 51.3
   },
   "ETHUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1886.92,
-    "sl_price": 2075.612,
-    "tp_price": 1509.536,
-    "opened_at": "2026-08-12 17:30 UTC",
-    "entry_score": 3,
-    "progress_pct": -0.6,
-    "optimism_pct": 53.8
+    "open": false
   },
   "NVDA": {
     "open": true,
