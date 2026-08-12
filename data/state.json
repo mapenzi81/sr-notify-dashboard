@@ -14,7 +14,7 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 10:50 UTC"
+    "last_run": "2026-08-12 10:55 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -111,7 +111,15 @@
     "open": false
   },
   "ETHUSDT": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 1911.69,
+    "sl_price": 1720.521,
+    "tp_price": 2294.0280000000002,
+    "opened_at": "2026-08-12 10:55 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "NVDA": {
     "open": true,
