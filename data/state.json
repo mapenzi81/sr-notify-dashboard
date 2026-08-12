@@ -7,17 +7,25 @@
     "tp_price": 50851.672,
     "opened_at": "2026-08-12 16:41 UTC",
     "entry_score": 3,
-    "progress_pct": 0.3,
-    "optimism_pct": 54.1
+    "progress_pct": 0.6,
+    "optimism_pct": 54.2
   },
   "DOGEUSDT": {
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 16:55 UTC"
+    "last_run": "2026-08-12 17:00 UTC"
   },
   "XRPUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 1.0088,
+    "sl_price": 1.10968,
+    "tp_price": 0.80704,
+    "opened_at": "2026-08-12 17:00 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "GC=F": {
     "open": true,
@@ -49,14 +57,22 @@
     "tp_price": 274.5143451035156,
     "opened_at": "2026-08-12 16:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 9.3,
+    "optimism_pct": 56.8
   },
   "XNDU": {
     "open": false
   },
   "SOLUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 75.7,
+    "sl_price": 83.27000000000001,
+    "tp_price": 60.56,
+    "opened_at": "2026-08-12 17:00 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "AVAXUSDT": {
     "open": false
@@ -69,19 +85,11 @@
     "tp_price": 320.1934368896484,
     "opened_at": "2026-08-12 16:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -6.0,
+    "optimism_pct": 52.2
   },
   "COIN": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 148.27000427246094,
-    "sl_price": 150.32848427246094,
-    "tp_price": 144.15304427246093,
-    "opened_at": "2026-08-12 14:50 UTC",
-    "entry_score": 3,
-    "progress_pct": 1.1,
-    "optimism_pct": 54.3
+    "open": false
   },
   "YXT": {
     "open": true,
@@ -98,7 +106,15 @@
     "open": false
   },
   "NVDA": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 223.8000030517578,
+    "sl_price": 221.56200302124023,
+    "tp_price": 228.27600311279298,
+    "opened_at": "2026-08-12 17:00 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "ZW=F": {
     "open": true,
