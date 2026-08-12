@@ -6,7 +6,7 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 19:35 UTC"
+    "last_run": "2026-08-12 19:40 UTC"
   },
   "XRPUSDT": {
     "open": false
@@ -73,7 +73,15 @@
     "open": false
   },
   "COIN": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 149.63999938964844,
+    "sl_price": 148.14359939575195,
+    "tp_price": 152.63279937744142,
+    "opened_at": "2026-08-12 19:40 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "YXT": {
     "open": false
