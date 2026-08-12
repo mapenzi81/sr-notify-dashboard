@@ -1,20 +1,12 @@
 {
   "BTCUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 63492.12,
-    "sl_price": 69841.33200000001,
-    "tp_price": 50793.696,
-    "opened_at": "2026-08-12 17:10 UTC",
-    "entry_score": 3,
-    "progress_pct": -0.8,
-    "optimism_pct": 53.8
+    "open": false
   },
   "DOGEUSDT": {
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 17:25 UTC"
+    "last_run": "2026-08-12 17:30 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -24,8 +16,8 @@
     "tp_price": 0.8073600000000001,
     "opened_at": "2026-08-12 17:25 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.6,
+    "optimism_pct": 54.2
   },
   "GC=F": {
     "open": true,
@@ -50,15 +42,7 @@
     "optimism_pct": 54.0
   },
   "CBRS": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 260.5299987792969,
-    "sl_price": 252.73229227929687,
-    "tp_price": 276.1254117792969,
-    "opened_at": "2026-08-12 17:10 UTC",
-    "entry_score": 3,
-    "progress_pct": -26.5,
-    "optimism_pct": 46.0
+    "open": false
   },
   "XNDU": {
     "open": false
@@ -71,8 +55,8 @@
     "tp_price": 60.608000000000004,
     "opened_at": "2026-08-12 17:25 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -0.9,
+    "optimism_pct": 53.7
   },
   "AVAXUSDT": {
     "open": false
@@ -84,18 +68,18 @@
     "open": false
   },
   "YXT": {
+    "open": false
+  },
+  "ETHUSDT": {
     "open": true,
     "direction": "short",
-    "entry_price": 4.625,
-    "sl_price": 4.7919605,
-    "tp_price": 4.291079,
-    "opened_at": "2026-08-12 17:10 UTC",
+    "entry_price": 1886.92,
+    "sl_price": 2075.612,
+    "tp_price": 1509.536,
+    "opened_at": "2026-08-12 17:30 UTC",
     "entry_score": 3,
     "progress_pct": 0.0,
     "optimism_pct": 54.0
-  },
-  "ETHUSDT": {
-    "open": false
   },
   "NVDA": {
     "open": true,
@@ -105,8 +89,8 @@
     "tp_price": 228.27600311279298,
     "opened_at": "2026-08-12 17:00 UTC",
     "entry_score": 3,
-    "progress_pct": 7.2,
-    "optimism_pct": 56.2
+    "progress_pct": 6.7,
+    "optimism_pct": 56.0
   },
   "ZW=F": {
     "open": true,
