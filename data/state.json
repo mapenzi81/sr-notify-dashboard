@@ -11,10 +11,18 @@
     "optimism_pct": 53.8
   },
   "DOGEUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 0.07151,
+    "sl_price": 0.07866100000000001,
+    "tp_price": 0.057208,
+    "opened_at": "2026-08-12 09:10 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "_meta": {
-    "last_run": "2026-08-12 09:05 UTC"
+    "last_run": "2026-08-12 09:10 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -35,8 +43,8 @@
     "tp_price": 4551.03580078125,
     "opened_at": "2026-08-12 04:25 UTC",
     "entry_score": 3,
-    "progress_pct": 4.6,
-    "optimism_pct": 55.4
+    "progress_pct": -2.7,
+    "optimism_pct": 53.2
   },
   "CL=F": {
     "open": true,
@@ -46,8 +54,8 @@
     "tp_price": 82.16319641113282,
     "opened_at": "2026-08-12 08:15 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 15.5,
+    "optimism_pct": 58.6
   },
   "CBRS": {
     "open": true,
@@ -61,7 +69,15 @@
     "optimism_pct": 62.0
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 10.345000267028809,
+    "sl_price": 10.448450269699096,
+    "tp_price": 10.138100261688232,
+    "opened_at": "2026-08-12 09:10 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "SOLUSDT": {
     "open": true,
@@ -75,15 +91,7 @@
     "optimism_pct": 53.6
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 6.241,
-    "sl_price": 6.8651,
-    "tp_price": 4.9928,
-    "opened_at": "2026-08-12 08:50 UTC",
-    "entry_score": 3,
-    "progress_pct": 1.4,
-    "optimism_pct": 54.4
+    "open": false
   },
   "TSLA": {
     "open": true,
@@ -97,7 +105,15 @@
     "optimism_pct": 54.0
   },
   "COIN": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 147.90499877929688,
+    "sl_price": 146.4259487915039,
+    "tp_price": 150.8630987548828,
+    "opened_at": "2026-08-12 09:10 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "YXT": {
     "open": false
