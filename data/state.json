@@ -3,10 +3,18 @@
     "open": false
   },
   "DOGEUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 0.07039,
+    "sl_price": 0.077429,
+    "tp_price": 0.056311999999999994,
+    "opened_at": "2026-08-12 14:35 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "_meta": {
-    "last_run": "2026-08-12 14:30 UTC"
+    "last_run": "2026-08-12 14:35 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -20,7 +28,15 @@
     "optimism_pct": 54.0
   },
   "GC=F": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 4487.39990234375,
+    "sl_price": 4442.525903320313,
+    "tp_price": 4577.147900390625,
+    "opened_at": "2026-08-12 14:35 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "CL=F": {
     "open": true,
@@ -34,26 +50,10 @@
     "optimism_pct": 59.3
   },
   "CBRS": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 249.1999969482422,
-    "sl_price": 243.17665094824218,
-    "tp_price": 261.2466889482422,
-    "opened_at": "2026-08-12 14:15 UTC",
-    "entry_score": 4,
-    "progress_pct": 14.9,
-    "optimism_pct": 66.5
+    "open": false
   },
   "XNDU": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 10.5,
-    "sl_price": 10.605,
-    "tp_price": 10.29,
-    "opened_at": "2026-08-12 14:15 UTC",
-    "entry_score": 3,
-    "progress_pct": -19.0,
-    "optimism_pct": 48.3
+    "open": false
   },
   "SOLUSDT": {
     "open": true,
@@ -70,15 +70,7 @@
     "open": false
   },
   "TSLA": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 327.5199890136719,
-    "sl_price": 330.7951889038086,
-    "tp_price": 320.96958923339844,
-    "opened_at": "2026-08-12 14:15 UTC",
-    "entry_score": 3,
-    "progress_pct": 29.5,
-    "optimism_pct": 62.9
+    "open": false
   },
   "COIN": {
     "open": true,
@@ -99,8 +91,8 @@
     "tp_price": 5.034471076293945,
     "opened_at": "2026-08-12 13:55 UTC",
     "entry_score": 3,
-    "progress_pct": 40.3,
-    "optimism_pct": 66.1
+    "progress_pct": 86.4,
+    "optimism_pct": 79.9
   },
   "ETHUSDT": {
     "open": false
