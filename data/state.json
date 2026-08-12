@@ -3,18 +3,10 @@
     "open": false
   },
   "DOGEUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 0.07154,
-    "sl_price": 0.07869400000000001,
-    "tp_price": 0.057232000000000005,
-    "opened_at": "2026-08-12 06:50 UTC",
-    "entry_score": 3,
-    "progress_pct": -0.6,
-    "optimism_pct": 53.8
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 07:05 UTC"
+    "last_run": "2026-08-12 07:10 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -35,11 +27,19 @@
     "tp_price": 4551.03580078125,
     "opened_at": "2026-08-12 04:25 UTC",
     "entry_score": 3,
-    "progress_pct": -24.2,
-    "optimism_pct": 46.7
+    "progress_pct": 1.6,
+    "optimism_pct": 54.5
   },
   "CL=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 83.73999786376953,
+    "sl_price": 84.57739784240722,
+    "tp_price": 82.06519790649413,
+    "opened_at": "2026-08-12 07:10 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "CBRS": {
     "open": true,
@@ -64,18 +64,18 @@
     "optimism_pct": 54.0
   },
   "SOLUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 76.09,
-    "sl_price": 83.699,
-    "tp_price": 60.872,
-    "opened_at": "2026-08-12 06:50 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.3,
-    "optimism_pct": 54.1
+    "open": false
   },
   "AVAXUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 6.244,
+    "sl_price": 6.868399999999999,
+    "tp_price": 4.9952,
+    "opened_at": "2026-08-12 07:10 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "TSLA": {
     "open": true,
@@ -106,15 +106,7 @@
     "open": false
   },
   "NVDA": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 217.74600219726562,
-    "sl_price": 215.56854217529298,
-    "tp_price": 222.10092224121092,
-    "opened_at": "2026-08-12 06:50 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "ZW=F": {
     "open": true,
