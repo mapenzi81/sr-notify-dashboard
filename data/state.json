@@ -11,21 +11,21 @@
     "optimism_pct": 62.0
   },
   "DOGEUSDT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 0.07208,
-    "sl_price": 0.064872,
-    "tp_price": 0.086496,
-    "opened_at": "2026-08-12 12:30 UTC",
-    "entry_score": 3,
-    "progress_pct": -7.8,
-    "optimism_pct": 51.7
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 12:45 UTC"
+    "last_run": "2026-08-12 12:50 UTC"
   },
   "XRPUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 1.0184,
+    "sl_price": 1.12024,
+    "tp_price": 0.81472,
+    "opened_at": "2026-08-12 12:50 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "GC=F": {
     "open": true,
@@ -53,15 +53,7 @@
     "optimism_pct": 62.0
   },
   "XNDU": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 10.345000267028809,
-    "sl_price": 10.448450269699096,
-    "tp_price": 10.138100261688232,
-    "opened_at": "2026-08-12 12:30 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "SOLUSDT": {
     "open": true,
@@ -75,15 +67,7 @@
     "optimism_pct": 54.0
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 6.43,
-    "sl_price": 5.787,
-    "tp_price": 7.715999999999999,
-    "opened_at": "2026-08-12 12:30 UTC",
-    "entry_score": 3,
-    "progress_pct": -1.4,
-    "optimism_pct": 53.6
+    "open": false
   },
   "TSLA": {
     "open": true,
@@ -97,15 +81,7 @@
     "optimism_pct": 54.0
   },
   "COIN": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 147.90499877929688,
-    "sl_price": 146.4259487915039,
-    "tp_price": 150.8630987548828,
-    "opened_at": "2026-08-12 12:30 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "YXT": {
     "open": false
@@ -122,15 +98,7 @@
     "optimism_pct": 60.0
   },
   "NVDA": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 217.74600219726562,
-    "sl_price": 215.56854217529298,
-    "tp_price": 222.10092224121092,
-    "opened_at": "2026-08-12 12:30 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "ZW=F": {
     "open": true,
