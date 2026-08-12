@@ -7,8 +7,8 @@
     "tp_price": 51072.0,
     "opened_at": "2026-08-12 14:10 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.4,
+    "optimism_pct": 54.1
   },
   "DOGEUSDT": {
     "open": true,
@@ -18,11 +18,11 @@
     "tp_price": 0.056479999999999995,
     "opened_at": "2026-08-12 14:10 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.3,
+    "optimism_pct": 54.1
   },
   "_meta": {
-    "last_run": "2026-08-12 14:10 UTC"
+    "last_run": "2026-08-12 14:15 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -32,8 +32,8 @@
     "tp_price": 0.81192,
     "opened_at": "2026-08-12 14:05 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.2,
+    "optimism_pct": 54.1
   },
   "GC=F": {
     "open": true,
@@ -58,21 +58,29 @@
     "optimism_pct": 59.3
   },
   "CBRS": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 249.1999969482422,
+    "sl_price": 243.17665094824218,
+    "tp_price": 261.2466889482422,
+    "opened_at": "2026-08-12 14:15 UTC",
+    "entry_score": 4,
+    "progress_pct": 0.0,
+    "optimism_pct": 62.0
   },
   "XNDU": {
-    "open": false
-  },
-  "SOLUSDT": {
     "open": true,
     "direction": "short",
-    "entry_price": 76.29,
-    "sl_price": 83.91900000000001,
-    "tp_price": 61.032000000000004,
-    "opened_at": "2026-08-12 13:45 UTC",
+    "entry_price": 10.5,
+    "sl_price": 10.605,
+    "tp_price": 10.29,
+    "opened_at": "2026-08-12 14:15 UTC",
     "entry_score": 3,
-    "progress_pct": 0.4,
-    "optimism_pct": 54.1
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
+  },
+  "SOLUSDT": {
+    "open": false
   },
   "AVAXUSDT": {
     "open": true,
@@ -82,11 +90,19 @@
     "tp_price": 7.6848,
     "opened_at": "2026-08-12 13:45 UTC",
     "entry_score": 3,
-    "progress_pct": -8.0,
+    "progress_pct": -8.1,
     "optimism_pct": 51.6
   },
   "TSLA": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 327.5199890136719,
+    "sl_price": 330.7951889038086,
+    "tp_price": 320.96958923339844,
+    "opened_at": "2026-08-12 14:15 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "COIN": {
     "open": true,
@@ -96,8 +112,8 @@
     "tp_price": 153.33660186767577,
     "opened_at": "2026-08-12 13:45 UTC",
     "entry_score": 3,
-    "progress_pct": -56.5,
-    "optimism_pct": 37.0
+    "progress_pct": -12.9,
+    "optimism_pct": 50.1
   },
   "YXT": {
     "open": true,
@@ -118,8 +134,8 @@
     "tp_price": 2293.584,
     "opened_at": "2026-08-12 13:05 UTC",
     "entry_score": 3,
-    "progress_pct": -5.2,
-    "optimism_pct": 52.4
+    "progress_pct": -6.0,
+    "optimism_pct": 52.2
   },
   "NVDA": {
     "open": true,
@@ -129,8 +145,8 @@
     "tp_price": 228.10769439697265,
     "opened_at": "2026-08-12 14:05 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -23.5,
+    "optimism_pct": 47.0
   },
   "ZW=F": {
     "open": true,
