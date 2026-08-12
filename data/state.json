@@ -6,7 +6,7 @@
     "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 19:30 UTC"
+    "last_run": "2026-08-12 19:35 UTC"
   },
   "XRPUSDT": {
     "open": false
@@ -15,7 +15,15 @@
     "open": false
   },
   "CL=F": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 83.19999694824219,
+    "sl_price": 84.20070994824219,
+    "tp_price": 81.19857094824219,
+    "opened_at": "2026-08-12 19:35 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "CBRS": {
     "open": true,
@@ -65,26 +73,10 @@
     "open": false
   },
   "COIN": {
-    "open": true,
-    "direction": "long",
-    "entry_price": 149.22999572753906,
-    "sl_price": 147.73769577026368,
-    "tp_price": 152.21459564208985,
-    "opened_at": "2026-08-12 19:15 UTC",
-    "entry_score": 4,
-    "progress_pct": 13.7,
-    "optimism_pct": 66.1
+    "open": false
   },
   "YXT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 4.6529998779296875,
-    "sl_price": 4.762114377929688,
-    "tp_price": 4.4347708779296875,
-    "opened_at": "2026-08-12 19:15 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "ETHUSDT": {
     "open": true,
