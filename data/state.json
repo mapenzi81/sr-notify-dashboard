@@ -3,10 +3,18 @@
     "open": false
   },
   "DOGEUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 0.07161,
+    "sl_price": 0.078771,
+    "tp_price": 0.05728799999999999,
+    "opened_at": "2026-08-12 07:30 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "_meta": {
-    "last_run": "2026-08-12 07:25 UTC"
+    "last_run": "2026-08-12 07:30 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -16,8 +24,8 @@
     "tp_price": 1.2261600000000001,
     "opened_at": "2026-08-12 07:20 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -0.4,
+    "optimism_pct": 53.9
   },
   "GC=F": {
     "open": true,
@@ -53,7 +61,15 @@
     "optimism_pct": 62.0
   },
   "XNDU": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 10.345000267028809,
+    "sl_price": 10.448450269699096,
+    "tp_price": 10.138100261688232,
+    "opened_at": "2026-08-12 07:30 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "SOLUSDT": {
     "open": true,
@@ -63,19 +79,11 @@
     "tp_price": 60.872,
     "opened_at": "2026-08-12 07:15 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.3,
+    "optimism_pct": 54.1
   },
   "AVAXUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 6.244,
-    "sl_price": 6.868399999999999,
-    "tp_price": 4.9952,
-    "opened_at": "2026-08-12 07:10 UTC",
-    "entry_score": 4,
-    "progress_pct": 0.6,
-    "optimism_pct": 62.2
+    "open": false
   },
   "TSLA": {
     "open": true,
@@ -89,7 +97,15 @@
     "optimism_pct": 54.0
   },
   "COIN": {
-    "open": false
+    "open": true,
+    "direction": "long",
+    "entry_price": 147.90499877929688,
+    "sl_price": 146.4259487915039,
+    "tp_price": 150.8630987548828,
+    "opened_at": "2026-08-12 07:30 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "YXT": {
     "open": false
