@@ -7,22 +7,14 @@
     "tp_price": 50724.96,
     "opened_at": "2026-08-12 22:45 UTC",
     "entry_score": 3,
-    "progress_pct": -0.4,
+    "progress_pct": -0.2,
     "optimism_pct": 53.9
   },
   "DOGEUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 0.06947,
-    "sl_price": 0.076417,
-    "tp_price": 0.055576,
-    "opened_at": "2026-08-12 23:25 UTC",
-    "entry_score": 3,
-    "progress_pct": -1.0,
-    "optimism_pct": 53.7
+    "open": false
   },
   "_meta": {
-    "last_run": "2026-08-12 23:40 UTC"
+    "last_run": "2026-08-12 23:45 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -32,8 +24,8 @@
     "tp_price": 0.80352,
     "opened_at": "2026-08-12 23:00 UTC",
     "entry_score": 3,
-    "progress_pct": 0.8,
-    "optimism_pct": 54.2
+    "progress_pct": -0.4,
+    "optimism_pct": 53.9
   },
   "GC=F": {
     "open": false
@@ -79,11 +71,19 @@
     "tp_price": 60.4,
     "opened_at": "2026-08-12 22:05 UTC",
     "entry_score": 3,
-    "progress_pct": -0.1,
-    "optimism_pct": 54.0
+    "progress_pct": -0.8,
+    "optimism_pct": 53.8
   },
   "AVAXUSDT": {
-    "open": false
+    "open": true,
+    "direction": "short",
+    "entry_price": 6.315,
+    "sl_price": 6.9465,
+    "tp_price": 5.0520000000000005,
+    "opened_at": "2026-08-12 23:45 UTC",
+    "entry_score": 3,
+    "progress_pct": 0.0,
+    "optimism_pct": 54.0
   },
   "TSLA": {
     "open": false
@@ -111,26 +111,10 @@
     "optimism_pct": 54.0
   },
   "ETHUSDT": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 1878.02,
-    "sl_price": 2065.822,
-    "tp_price": 1502.416,
-    "opened_at": "2026-08-12 22:45 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.3,
-    "optimism_pct": 54.1
+    "open": false
   },
   "NVDA": {
-    "open": true,
-    "direction": "short",
-    "entry_price": 222.34030151367188,
-    "sl_price": 224.5637045288086,
-    "tp_price": 217.89349548339842,
-    "opened_at": "2026-08-12 23:25 UTC",
-    "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "open": false
   },
   "ZW=F": {
     "open": true,
