@@ -10,11 +10,11 @@
     "tp_price": 0.056704,
     "opened_at": "2026-08-12 15:50 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.4,
+    "optimism_pct": 54.1
   },
   "_meta": {
-    "last_run": "2026-08-12 15:55 UTC"
+    "last_run": "2026-08-12 16:00 UTC"
   },
   "XRPUSDT": {
     "open": true,
@@ -24,8 +24,8 @@
     "tp_price": 0.80952,
     "opened_at": "2026-08-12 15:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -0.8,
+    "optimism_pct": 53.8
   },
   "GC=F": {
     "open": true,
@@ -57,8 +57,8 @@
     "tp_price": 271.8106026484375,
     "opened_at": "2026-08-12 15:55 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -1.5,
+    "optimism_pct": 53.5
   },
   "XNDU": {
     "open": true,
@@ -68,8 +68,8 @@
     "tp_price": 10.281828885559083,
     "opened_at": "2026-08-12 14:50 UTC",
     "entry_score": 3,
-    "progress_pct": 37.5,
-    "optimism_pct": 65.2
+    "progress_pct": 39.9,
+    "optimism_pct": 66.0
   },
   "SOLUSDT": {
     "open": true,
@@ -79,8 +79,8 @@
     "tp_price": 60.64,
     "opened_at": "2026-08-12 15:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": 0.3,
+    "optimism_pct": 54.1
   },
   "AVAXUSDT": {
     "open": false
@@ -93,8 +93,8 @@
     "tp_price": 318.0786071777344,
     "opened_at": "2026-08-12 15:55 UTC",
     "entry_score": 4,
-    "progress_pct": 0.0,
-    "optimism_pct": 62.0
+    "progress_pct": -43.4,
+    "optimism_pct": 49.0
   },
   "COIN": {
     "open": true,
@@ -104,8 +104,8 @@
     "tp_price": 144.15304427246093,
     "opened_at": "2026-08-12 14:50 UTC",
     "entry_score": 3,
-    "progress_pct": -8.0,
-    "optimism_pct": 51.6
+    "progress_pct": 1.3,
+    "optimism_pct": 54.4
   },
   "YXT": {
     "open": true,
@@ -129,8 +129,8 @@
     "tp_price": 227.63339813232423,
     "opened_at": "2026-08-12 15:45 UTC",
     "entry_score": 3,
-    "progress_pct": 0.0,
-    "optimism_pct": 54.0
+    "progress_pct": -6.7,
+    "optimism_pct": 52.0
   },
   "ZW=F": {
     "open": true,
